@@ -59,6 +59,8 @@
   }
 
   .nav a {
+    font-family: "Public Sans", sans-serif;
+    font-weight: 300;
     padding: 16px;
     text-decoration: none;
     color: #000;
