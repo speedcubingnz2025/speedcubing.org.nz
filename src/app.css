@@ -5,18 +5,9 @@ body{
 
 h1, h2, h3 {
   font-family: 'League Spartan', sans-serif;
+  /* font-family: 'Carlito', sans-serif; */
 }
 
-h1 {
-  font-weight: 800;
-  font-size: 32px;
-}
-
-h2 {
-  font-weight: 600;
-  font-size: 24px;
-}
-
-h3 {
-  font-weight: 200;
+h4, h5, h6 {
+  font-family: 'Carlito', sans-serif;
 }

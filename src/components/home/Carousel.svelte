@@ -9,9 +9,9 @@
     "gallery4.jpg",
   ];
 
-  // let interval = setInterval(() => {
-  //   next();
-  // }, 4000);
+  let interval = setInterval(() => {
+    // next();
+  }, 4000);
 
   function next() {
     current = (current + 1) % slides.length;
@@ -26,7 +26,7 @@
   function resetTransition() {
     clearInterval(interval);
     interval = setInterval(() => {
-      next();
+      // next();
     }, 4000);
   }
 </script>
@@ -44,7 +44,7 @@
 
 <style>
   .carousel {
-    height: calc(100vh - 100px);
+    height: calc(100vh - 250px);
     background-color: orange;
     overflow: hidden;
     position: relative;
@@ -59,12 +59,12 @@
 
   button {
     background: none;
-    position: absolute;
     border: none;
     color: white;
     position: absolute;
     top: 50%;
     font-size: 32px;
+    cursor: pointer;
   }
 
   .left {
@@ -72,5 +72,10 @@
   }
   .right {
     right: 2%;
+  }
+
+  button:hover {
+    transition: color 0.3s ease;
+    color: #101010;
   }
 </style>

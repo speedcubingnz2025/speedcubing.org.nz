@@ -8,19 +8,22 @@
 
 <style>
   button {
-    font-family: "Public Sans", sans-serif;
-    font-weight: 600;
-    border: 0px;
+    font-weight: 300;
+    font-size: 1rem;
+    border: 1px solid #dbdbdb;
     border-radius: 5px;
-    background-color: #93c572;
-    color: black;
-    padding: 8px 16px;
+    background: none;
+    color: #dbdbdb;
+    padding: 10px 24px;
     cursor: pointer;
     font-size: 16px;
+    margin: 8px;
   }
 
   button:hover {
     transition: color 0.3s ease;
-    background-color: #a7d08b;
+    transition: background-color 0.3s ease;
+    background-color: #dbdbdb;
+    color: #101010;
   }
 </style>

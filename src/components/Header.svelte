@@ -25,11 +25,14 @@
 
 <style>
   .header {
+    position: sticky;
+    z-index: 100;
+    top: 0;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    background-color: #1a1a1b;
+    background-color: #101010;
     height: 100px;
   }
 
