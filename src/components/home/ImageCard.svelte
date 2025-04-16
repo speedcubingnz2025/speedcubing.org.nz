@@ -13,6 +13,7 @@
 <style>
   section {
     position: relative;
+    transition: transform 0.3s ease;
   }
   .title,
   .text {
@@ -42,5 +43,9 @@
     display: block;
     width: 100%;
     height: 100%;
+  }
+  section:hover {
+    transform: scale(1.1);
+    z-index: 99;
   }
 </style>

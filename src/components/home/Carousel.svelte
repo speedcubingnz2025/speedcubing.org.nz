@@ -44,8 +44,8 @@
 
 <style>
   .carousel {
-    height: calc(100vh - 250px);
-    background-color: orange;
+    height: calc(100vh - 180px);
+    background-color: #1a1a1b;
     overflow: hidden;
     position: relative;
   }
@@ -77,5 +77,10 @@
   button:hover {
     transition: color 0.3s ease;
     color: #101010;
+  }
+  @media screen and (max-width: 768px) {
+    .carousel {
+      height: calc(100vh - 250px);
+    }
   }
 </style>
