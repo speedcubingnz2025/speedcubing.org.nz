@@ -6,7 +6,7 @@
   <img src={imagePath} alt="competition" class="bgImg" />
   <div class="box">
     <h1>{title}</h1>
-    <h4>{text}</h4>
+    <h4>{@html text}</h4>
   </div>
 </section>
 
@@ -16,6 +16,7 @@
     margin: 0;
     color: white;
     white-space: pre-line;
+    line-height: 1.2rem;
   }
   h1 {
     font-size: 2.8rem;
@@ -26,6 +27,10 @@
     font-size: 0.9rem;
     font-weight: 100;
     color: #dbdbdb;
+  }
+  :global(.box a) {
+    color: #1e90ff;
+    text-decoration: underline;
   }
   section {
     display: flex;
@@ -57,6 +62,7 @@
     padding: 16px;
     box-sizing: border-box;
   }
+
   @media screen and (max-width: 768px) {
     h1 {
       font-size: 2.1rem;
