@@ -1,43 +1,44 @@
 <script>
   import "bootstrap-icons/font/bootstrap-icons.css";
+  import { fade } from "svelte/transition";
 
   let current = 0;
   const slides = [
-    "gallery1.jpg",
-    "gallery2.jpg",
-    "gallery3.jpg",
-    "gallery4.jpg",
+    "gallery/gallery1.jpg",
+    "gallery/gallery2.jpg",
+    "gallery/gallery3.jpg",
   ];
-
-  let interval = setInterval(() => {
-    // next();
-  }, 4000);
+  let interval = setInterval(next, 4000);
 
   function next() {
+    resetInterval();
     current = (current + 1) % slides.length;
-    resetTransition();
   }
 
   function prev() {
+    resetInterval();
     current = (current - 1 + slides.length) % slides.length;
-    resetTransition();
   }
 
-  function resetTransition() {
+  function resetInterval() {
     clearInterval(interval);
-    interval = setInterval(() => {
-      // next();
-    }, 4000);
+    interval = setInterval(next, 4000);
   }
 </script>
 
 <div class="carousel">
-  <img src={slides[current]} alt="Slide" />
+  {#key slides[current]}
+    <img
+      src={slides[current]}
+      alt="Slide"
+      transition:fade={{ duration: 500 }}
+    />
+  {/key}
 
-  <button on:click={prev} class="left" aria-label="left"
+  <button on:click={next} class="left" aria-label="left"
     ><i class="bi bi-chevron-left"></i></button
   >
-  <button on:click={next} class="right" aria-label="right"
+  <button on:click={prev} class="right" aria-label="right"
     ><i class="bi bi-chevron-right"></i></button
   >
 </div>
@@ -52,6 +53,7 @@
   img {
     object-fit: cover;
     object-position: center;
+    position: absolute;
     display: block;
     width: 100%;
     height: 100%;
