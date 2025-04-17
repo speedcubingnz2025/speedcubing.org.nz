@@ -7,8 +7,12 @@
     "gallery/gallery1.jpg",
     "gallery/gallery2.jpg",
     "gallery/gallery3.jpg",
+    "gallery/gallery5.webp",
+    "gallery/gallery6.webp",
+    "gallery/gallery7.webp",
+    "gallery/gallery9.webp",
   ];
-  let interval = setInterval(next, 4000);
+  // let interval = setInterval(next, 4000);
 
   function next() {
     resetInterval();
@@ -21,8 +25,8 @@
   }
 
   function resetInterval() {
-    clearInterval(interval);
-    interval = setInterval(next, 4000);
+    // clearInterval(interval);
+    // interval = setInterval(next, 4000);
   }
 </script>
 
@@ -78,7 +82,7 @@
 
   button:hover {
     transition: color 0.3s ease;
-    color: #101010;
+    color: #aaaaaa;
   }
   @media screen and (max-width: 768px) {
     .carousel {
