@@ -63,7 +63,7 @@
 
   .nav a {
     font-weight: 300;
-    font-size: clamp(1rem, 1vw, 3rem);
+    font-size: clamp(1rem, 1vw, 1.5rem);
     padding: clamp(12px, 2vw, 20px);
     text-decoration: none;
     color: var(--colorWhite);
