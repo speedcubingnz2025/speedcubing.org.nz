@@ -57,14 +57,14 @@
   }
 
   img {
-    width: 90px;
+    width: clamp(90px, 10vw, 8rem);
     padding: 16px;
   }
 
   .nav a {
     font-weight: 300;
-    font-size: 14px;
-    padding: 0px 16px;
+    font-size: clamp(1rem, 1vw, 3rem);
+    padding: clamp(12px, 2vw, 20px);
     text-decoration: none;
     color: var(--colorWhite);
     cursor: pointer;
@@ -90,7 +90,7 @@
       width: 100%;
     }
     .nav a {
-      padding: 12px;
+      padding: clamp(12px, 2vw, 20px);
     }
     .nav.open {
       display: flex;

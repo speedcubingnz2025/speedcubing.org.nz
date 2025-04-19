@@ -3,11 +3,13 @@
 </script>
 
 <section>
-  <a href={link}
-    ><img alt="cuber" src={img} />
-    <div class="title">{title}</div>
-    <div class="text">{text}</div></a
-  >
+  <a href={link}>
+    <img alt="cuber" src={img} />
+    <div class="textBoxes">
+      <div><h5 class="title">{title}</h5></div>
+      <div><h6 class="text">{text}</h6></div>
+    </div>
+  </a>
 </section>
 
 <style>
@@ -17,25 +19,26 @@
   }
   .title,
   .text {
-    position: absolute;
+    margin: auto;
     background-color: var(--colorBlack3);
     color: white;
-    left: 50%;
-    transform: translateX(-50%);
-    text-align: center;
   }
   .title {
     font-weight: 400;
-    bottom: 50px;
-    width: 50%;
-    padding: 8px;
+    width: 70%;
   }
   .text {
-    font-size: 0.8rem;
     font-weight: 100;
-    width: 80%;
-    bottom: 10px;
-    padding: 4px;
+    width: 50%;
+  }
+  .textBoxes {
+    position: absolute;
+    transform: translateX(-50%);
+    transform: translateY(-120%);
+    display: flex;
+    flex-direction: column;
+    gap: 20px 0px;
+    width: 100%;
   }
   img {
     object-fit: cover;

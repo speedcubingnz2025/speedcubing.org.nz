@@ -9,14 +9,13 @@
 <style>
   button {
     font-weight: 300;
-    font-size: 1rem;
+    font-size: clamp(0.9rem, 1.8vw, 3rem);
     border: 1px solid var(--colorGrey1);
     border-radius: 5px;
     background: none;
     color: var(--colorGrey1);
-    padding: 10px 24px;
+    padding: clamp(8px, 1.5vw, 12px) clamp(16px, 3vw, 32px);
     cursor: pointer;
-    font-size: 16px;
     min-width: 130px;
   }
 
