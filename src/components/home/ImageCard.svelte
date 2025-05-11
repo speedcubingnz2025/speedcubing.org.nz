@@ -3,13 +3,13 @@
 </script>
 
 <section>
-    <a href={link}>
-      <img alt="cuber" src={img} />
-      <div class="box">
-        <h3>{title}</h3>
-        <p>{text}</p>
-      </div>
-    </a>
+  <a href={link}>
+    <img alt="cuber" src={img} />
+    <div class="box">
+      <h3>{title}</h3>
+      <p>{text}</p>
+    </div>
+  </a>
 </section>
 
 <style>

@@ -8,7 +8,7 @@
       img="image_row/IMG_0885.webp"
       title="GETTING STARTED"
       text="Learn to solve the Rubik's Cube, and get started with the hobby!"
-      link="/start"
+      link="/getting-started"
     ></ImageCard>
   </div>
   <div>
@@ -24,7 +24,7 @@
       img="image_row/team_nz.webp"
       title="TOP CUBERS"
       text="New Zealand has some of the best speedcubers in the world!"
-      link="/top-cubers"
+      link="/nzs-best"
     ></ImageCard>
   </div>
 </section>

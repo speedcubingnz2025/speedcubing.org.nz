@@ -1,9 +1,9 @@
 <script>
   import "bootstrap-icons/font/bootstrap-icons.css";
-  import { fade } from "svelte/transition";
-
-  let current = 0;
-  const slides = [
+  // import { slide } from "svelte/transition";
+  let slides;
+  let index = 0;
+  const imgSrcs = [
     "gallery/gallery1.jpg",
     "gallery/gallery2.jpg",
     "gallery/gallery3.jpg",
@@ -12,32 +12,25 @@
     "gallery/gallery7.webp",
     "gallery/gallery8.webp",
   ];
-  let interval = setInterval(next, 6000);
+  // let interval = setInterval(next, 6000);
 
   function next() {
-    resetInterval();
-    current = (current - 1 + slides.length) % slides.length;
+    index = (index + 1) % imgSrcs.length;
   }
 
   function prev() {
-    resetInterval();
-    current = (current + 1 + slides.length) % slides.length;
+    index = (index - 1 + imgSrcs.length) % imgSrcs.length;
   }
 
-  function resetInterval() {
-    clearInterval(interval);
-    interval = setInterval(next, 6000);
-  }
+  $: offset = `translateX(-${index * 100}%)`;
 </script>
 
 <div class="carousel">
-  {#key slides[current]}
-    <img
-      src={slides[current]}
-      alt="Slide"
-      transition:fade={{ duration: 500 }}
-    />
-  {/key}
+  <div class="slides" style="transform: {offset};">
+    {#each imgSrcs as src}
+      <img src={src} alt="">
+    {/each}
+  </div>
 
   <button on:click={prev} class="left" aria-label="left"
     ><i class="bi bi-chevron-left"></i></button
@@ -53,13 +46,21 @@
     overflow: hidden;
     position: relative;
     background-color: var(--colorBlack2);
+    touch-action: manipulation;
   }
+
+  .slides{
+    display: flex;
+    flex-direction: row;
+    transition: transform 0.7s ease;
+    height: 100%;
+    width: 100%;
+  }
+ 
   img {
     object-fit: cover;
     object-position: center;
-    position: absolute;
-    display: block;
-    width: 100%;
+    min-width: 100%;
     height: 100%;
   }
 
@@ -80,13 +81,9 @@
     right: 2%;
   }
 
-  button:hover {
-    transition: color 0.3s ease;
-    color: var(--colorGrey2);
-  }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 768px){
     .carousel {
-      height: calc(100vh - 250px);
+      height: calc(100vh - 280px);
     }
   }
 </style>
