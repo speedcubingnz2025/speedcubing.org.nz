@@ -3,7 +3,7 @@
 </script>
 
 <section>
-  <img src={imagePath} alt="competition" class="bgImg" />
+  <img src={imagePath} alt="competition" class="bgImg" loading="eager" />
   <div class="box">
     <h1>{title}</h1>
     {@render children?.()}

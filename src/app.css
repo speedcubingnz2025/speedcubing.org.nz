@@ -62,14 +62,14 @@ h1 {
   font-size: 2.8rem;
   font-family: "Spartan MB", sans-serif;
   font-weight: 500;
-  font-size: clamp(2.8rem, 2.5vw, 5.6rem);
+  font-size: clamp(2.8rem, 2.5vw, 3.7rem);
   color: #fff;
   padding: 24px 16px;
 }
 
 h2 {
   text-align: center;
-  font-size: clamp(2.3rem, 2vw, 4.8rem);
+  font-size: clamp(2.3rem, 2vw, 3rem);
   font-family: "Spartan MB", sans-serif;
   font-weight: 500;
   color: #fff;
@@ -77,14 +77,14 @@ h2 {
 }
 
 h3 {
-  font-size: clamp(1.1rem, 1.4vw, 2.2rem);
+  font-size: clamp(1.1rem, 1.4vw, 1.43rem);
   font-family: "Spartan MB", sans-serif;
   font-weight: 500;
   color: #fff;
 }
 
 p {
-  font-size: clamp(1rem, 1.2vw, 2rem);
+  font-size: clamp(1rem, 1.2vw, 1.3rem);
   color: #fff;
   font-weight: 300;
 }
@@ -95,7 +95,7 @@ p {
 
 button {
   font-weight: 400;
-  font-size: clamp(1.1rem, 1.4vw, 2.2rem);
+  font-size: clamp(1.1rem, 1.4vw, 1.43rem);
   border: 1px solid var(--colorGrey1);
   border-radius: 5px;
   background: none;
