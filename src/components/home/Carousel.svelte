@@ -1,6 +1,5 @@
 <script>
   import "bootstrap-icons/font/bootstrap-icons.css";
-  // import { slide } from "svelte/transition";
   let slides;
   let index = 0;
   const imgSrcs = [
@@ -35,7 +34,7 @@
 <div class="carousel">
   <div class="slides" style="transform: {offset};">
     {#each imgSrcs as src}
-      <img src={src} alt="">
+      <img src={src} alt="" loading="lazy">
     {/each}
   </div>
 
@@ -59,7 +58,7 @@
   .slides{
     display: flex;
     flex-direction: row;
-    transition: transform 0.7s ease;
+    transition: transform 1s ease;
     height: 100%;
     width: 100%;
   }

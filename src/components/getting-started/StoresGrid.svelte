@@ -2,10 +2,10 @@
 <section>
   <div class="container">
     <a href="https://speedcube.co.nz">
-      <img src="stores/speedcubenz.png" alt="speedcube.co.nz">
+      <img src="getting_started/stores/speedcubenz_banner.png" alt="speedcube.co.nz">
     </a>
     <a href="https://mindplay.nz">
-      <img src="stores/mindplaynz.png" alt="mindplay.nz">
+      <img src="getting_started/stores/mindplay_banner.png" alt="mindplay.nz">
     </a>
   </div>
 </section>
@@ -14,6 +14,7 @@
   .container{
     display: grid;
     gap: 12px;
+    padding: 24px 0px;
   }
   img{
     width: 100%;

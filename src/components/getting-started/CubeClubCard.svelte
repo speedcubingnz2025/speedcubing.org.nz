@@ -1,31 +1,36 @@
 <script>
-  let {title, location, src} = $props();
+  let {title, location, src, link} = $props();
 </script>
 
-<a href="https://kapiticubers.wordpress.com/" aria-label="Kapiti Cubers" target="_blank">
-<section>
-    <img alt="Club" {src}>
-    <h3>{title}</h3>
+<a href={link} aria-label="Club" target="_blank">
+<div>
+    <img alt="Club" {src} loading="lazy">
+    <p>{title}</p>
     <i>{location}</i>
-</section>
+</div>
 </a>
 
 
 <style>
   img{
-    height: 100px;
-    width: 100px;
+    width: 100%;
     object-fit: cover;
     user-select: none;
   }
-  section{
-    padding: 16px 8px;
+  p{
+    padding: 10% 0px;
+  }
+  div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background-color: #4a4a4b;
     border-radius: 8px;
     text-align: center;
-  }
-  h3{
-    margin-top: 16px;
+    width: 100%;
+    height: 100%;
+    padding: 5%;
+    box-sizing: border-box;
   }
   i{
     color: var(--colorGrey2);

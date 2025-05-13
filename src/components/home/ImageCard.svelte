@@ -4,7 +4,7 @@
 
 <section>
   <a href={link}>
-    <img alt="cuber" src={img} />
+    <img alt="cuber" src={img} loading="lazy" />
     <div class="box">
       <h3>{title}</h3>
       <p>{text}</p>
