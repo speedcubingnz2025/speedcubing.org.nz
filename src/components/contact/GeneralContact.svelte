@@ -49,6 +49,7 @@
         <h4>Required: {errors.join(", ")}</h4>
       {/if}
       
+      <input type="hidden" name="bot-field" />
       <input type="submit" class="btn" value="Send"/>
     </form>
   {/if}
