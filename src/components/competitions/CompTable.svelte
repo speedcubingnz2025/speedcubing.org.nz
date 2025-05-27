@@ -1,5 +1,7 @@
 <script>
   import { eventOrder, dateToShort, getRegDate } from "$lib/comp_table_helpers";
+  import ActionRow from "./ActionRow.svelte";
+  import EventIconsRow  from "./EventIconsRow.svelte"
   let { type, comps } = $props();
   for(let i=0; i<comps.length; i++){
     comps[i].regText = type === "upcoming" ? getRegDate(comps[i]) : "recent" ? "Competition has finished" : null;
@@ -42,15 +44,13 @@
             >
               {comp.name}
             </a>
-            <!-- Event icons if desktop only (else they go in row below)-->
+
+            <!-- Event icons and action row if desktop only (else they go in row below)-->
             {#if (width > 768)}
-              <span class="event_icons_row">
-                <p>
-                  {#each comp.events.sort((a, b) => eventOrder.indexOf(a) - eventOrder.indexOf(b)) as event}
-                    <span class="cubing-icon event-{event}"></span>
-                  {/each}
-                </p>
-              </span>
+              <EventIconsRow events={comp.events}></EventIconsRow>
+              {#if (comp.regClosed)}
+                  <ActionRow {comp}></ActionRow>
+              {/if}
             {/if}
           </div>
           <!-- End comp name and events -->
@@ -85,19 +85,18 @@
           </div>
           <!-- End date and reg -->
 
-          <!-- Events list for mobile -->
-          {#if (width < 768)}
+          <!-- Events list and action row for mobile -->
+          {#if (width <= 768)}
             <div class="col4">
-              <span class="event_icons_row">
-                <p>
-                  {#each comp.events.sort((a, b) => eventOrder.indexOf(a) - eventOrder.indexOf(b)) as event}
-                    <span class="cubing-icon event-{event}"></span>
-                  {/each}
-                </p>
-              </span>
+              <EventIconsRow events={comp.events}></EventIconsRow>
             </div>
+            {#if comp.regClosed}
+              <div class="col4">
+                <ActionRow {comp}></ActionRow>
+              </div>
+            {/if}
           {/if}
-          <!-- End events list for mobile -->
+          <!-- End events list and action row for mobile -->
         </td>
       </tr>
     {/each}
@@ -145,10 +144,10 @@
     font-size: clamp(1rem, 1.2vw, 1.3rem);
     color: white;
   }
-  .venue_name, .reg_date, .cubing-icon {
+  .venue_name, .reg_date {
     font-size: clamp(0.7rem, 0.9vw, 0.9rem);
   }
-  .venue_name, .cubing-icon{
+  .venue_name{
     color: var(--colorGrey1);
   }
 
@@ -181,19 +180,6 @@
     border-left: 2px solid  var(--colorBlue2);
   }
 
-  .cubing-icon{
-    padding: 2px;
-  }
-  /* .upcoming td{
-    border-left: 4px solid var(--colorGreen1);
-  }
-  .recent td{
-    border-left: 4px solid var(--colorRed1);
-  }
-  .current td{
-    border-left: 4px solid var(--colorBlue2);
-  } */
-
   @media screen and (max-width: 768px){
     .comp_name, .comp_date{
       font-size: clamp(1rem, 1.2vw, 1.3rem);
@@ -206,10 +192,10 @@
       color: white;
     }
 
-    .venue_name, .reg_date, .cubing-icon {
+    .venue_name, .reg_date {
       font-size: clamp(0.7rem, 0.9vw, 0.9rem);
     }
-    .venue_name, .cubing-icon{
+    .venue_name{
       color: var(--colorGrey1);
     }
     .reg_date{

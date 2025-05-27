@@ -17,7 +17,6 @@
   let imagePath = "/getting_started/getting_started.webp";
 </script>
 <Header></Header>
-<!-- <PageTitle {title} {imagePath}></PageTitle> -->
 <SpecificComp></SpecificComp>
 
 <ContentColumn>

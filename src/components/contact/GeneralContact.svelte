@@ -50,7 +50,7 @@
       {/if}
       
       <input type="hidden" name="bot-field" />
-      <input type="submit" class="btn" value="Send"/>
+      <input type="submit" class="btn" value="SEND"/>
     </form>
   {/if}
 </section>
