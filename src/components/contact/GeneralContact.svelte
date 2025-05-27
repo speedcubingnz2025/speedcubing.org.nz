@@ -59,10 +59,17 @@
   section{
     padding-top: 16px;
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
   form{
     display: flex;
     flex-direction: column;
+  }
+  label, input, textarea{
+    font-size: clamp(1rem, 1.2vw, 1.3rem);
+    font-weight: 300;
   }
   label{
     color: var(--colorGrey1);
@@ -74,7 +81,7 @@
     color: #fff;
     padding: 8px;
     margin-bottom: 8px;
-    /* border-radius: 4px; */
+    border-radius: 0px;
   }
    input:focus, textarea:focus {
     border: 1px solid var(--colorGrey2);
@@ -96,6 +103,7 @@
     color: var(--colorGrey1);
     padding: 12px 24px;
     cursor: pointer;
+    border-radius: 0px;
   }
 
   .btn:hover {

@@ -3,10 +3,16 @@
 </script>
 
 <section>
-  <h2>CONTACT US</h2>
-  <p><i class="bi bi-envelope"></i> <a href="mailto:info@speedcubing.org.nz">info@speedcubing.org.nz</a></p>
-  <!-- <p><i class="bi bi-facebook"></i> <a href="https://www.facebook.com/SpeedcubingNZ/">@speedcubingNZ</a></p> -->
-  <!-- <p><i class="bi bi-instagram"></i> <a href="https://www.instagram.com/SpeedcubingNZ/">@speedcubingNZ</a></p> -->
+  <p>If you have any questions, feel free to fill in this contact form and we'll get back 
+    to you as soon as we can!<br/><br/>
+    Please also check our <a href="../faq">FAQ</a> to see if your question is listed there.
+    <br/><br/>
+    If your question is about a specific competition, you can use the 
+    <a href="https://www.worldcubeassociation.org/contact?contactRecipient=competition" 
+    class="blueLink" target="_blank" aria-label="form">WCA Contact Form</a> to reach that competition's organisers. 
+    Alternatively, you can reach us through the social media channels 
+    at the bottom of the page.</p>
+    <p><i class="bi bi-envelope"></i> <a href="mailto:info@speedcubing.org.nz">info@speedcubing.org.nz</a></p>
 </section>
 
 <style>
@@ -15,10 +21,8 @@
     width: 50%;
     display: flex;
     flex-direction: column;
-  }
-  h2{
+    justify-content: center;
     text-align: left;
-    padding:8px 0px;
   }
   p{
     padding: 6px 0px;

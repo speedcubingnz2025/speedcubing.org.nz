@@ -6,7 +6,6 @@
   import "../../app.css";
   import GeneralContact from "../../components/contact/GeneralContact.svelte";
   import Links from "../../components/contact/Links.svelte";
-  import SpecificComp from "../../components/contact/SpecificComp.svelte";
   import WantToOrganise from "../../components/contact/WantToOrganise.svelte";
   import ContentColumn from "../../components/ContentColumn.svelte";
   import Expandable from "../../components/Expandable.svelte";
@@ -17,9 +16,9 @@
   let imagePath = "/getting_started/getting_started.webp";
 </script>
 <Header></Header>
-<SpecificComp></SpecificComp>
-
+<!-- <SpecificComp></SpecificComp> -->
 <ContentColumn>
+  <h2>CONTACT US</h2>
   <div class="row">
     <Links></Links>
     <GeneralContact></GeneralContact>
@@ -32,6 +31,7 @@
     display: flex;
     flex-direction: row;
     min-height: calc(100vh - 320px);
+    gap: 60px;
   }
   @media screen and (max-width: 768px){
     .row{
