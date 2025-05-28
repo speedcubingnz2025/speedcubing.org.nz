@@ -107,13 +107,14 @@ p {
 }
 
 button, .btn {
-  font-weight: 300;
+  font-family: "Spartan MB", sans-serif;
+  font-weight: 400;
   font-size: clamp(1.1rem, 1.4vw, 1.43rem);
   border: 1px solid var(--colorGrey1);
-  border-radius: 5px;
+  border-radius: 4px;
   background: none;
   color: var(--colorGrey1);
-  padding: 10px 20px;
+  padding: 10px 20px 6px 20px;
   cursor: pointer;
 }
 
