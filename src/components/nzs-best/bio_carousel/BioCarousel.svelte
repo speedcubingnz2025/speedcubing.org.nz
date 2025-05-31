@@ -53,6 +53,7 @@
   
   .carousel{
     width: 100%;
+    max-height: 80vh;
     overflow: hidden;
     touch-action: manipulation;
   }
