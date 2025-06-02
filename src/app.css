@@ -50,7 +50,7 @@ body{
   font-family: "Calibri", sans-serif;
   font-weight: 300;
   overflow-x: hidden;
-  background-color: var(--colorBlack3);
+  background-color: var(--colorBlack2);
 }
 
 html{

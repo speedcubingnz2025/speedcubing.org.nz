@@ -16,10 +16,11 @@
   <p>
     New Zealand punches well above our weight in the world of competitive speedcubing, producing 
     some of the fastest cubers in the world! Despite our small population, we consistently rank 
-    in the top 10 countries worldwide in terms of our overall performance. From World Champions, 
+    in the top 10 countries worldwide in terms of our overall performance.<br/><br/>From World Champions, 
     to World Record holders, to dominant forces within the Oceania cubing scene, find out more 
     about some of New Zealand's top cubers here!
   </p>
 </PageTitle>
+<h2>CUBER BIOS</h2>
 <BioCarousel></BioCarousel>
 <Footer></Footer>
