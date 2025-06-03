@@ -5,7 +5,7 @@
 <section>
   <div>
     <ImageCard
-      img="image_row/IMG_0885.webp"
+      img="image_row/getting_started.webp"
       title="GETTING STARTED"
       text="Learn to solve the Rubik's Cube, and get started with the hobby!"
       link="/getting-started"
@@ -13,7 +13,7 @@
   </div>
   <div>
     <ImageCard
-      img="image_row/IMG_6900.webp"
+      img="image_row/comps.webp"
       title="COMPETITIONS"
       text="Learn more about WCA competitions, and find one near you!"
       link="/competitions"
@@ -21,7 +21,7 @@
   </div>
   <div>
     <ImageCard
-      img="image_row/team_nz.webp"
+      img="image_row/nzs_best.webp"
       title="NZ'S BEST"
       text="New Zealand has some of the best speedcubers in the world!"
       link="/nzs-best"
