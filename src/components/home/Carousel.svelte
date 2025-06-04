@@ -127,12 +127,12 @@
     gap: 12px;
   }
   .nav_dot {
-    width: 16px;
-    height: 16px;
+    width: 10px;
+    height: 10px;
     background-color: #9d9d9d;
     border-radius: 50%;
     border: none;
-    opacity: 0.7;
+    opacity: 0.4;
     transition: color 0.5s ease;
     cursor: pointer;
   }
