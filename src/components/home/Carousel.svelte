@@ -23,22 +23,17 @@
   // If slide is prev or active, do the 0.5s transition, else transition instantly
   let lastActive = $state(0);
   let active = $state(0);
-  let smoothTransform = $state(true);
 
   // initialise transforms for each image to 0
   // except last, which needs to be to the left of the first slide
   let transforms = $state(imgSrcs.map((_, i) =>  i === imgSrcs.length - 1 ? -100*imgSrcs.length : 0));
 
   async function handleClick(goal){
-    smoothTransform = false;
-    await new Promise(resolve => setTimeout(resolve, 50));
     let diff = goal - active;
     for(let i=0; i<Math.abs(diff); i++){
       if(diff < 0){ prev(); }
       else { next(); }
     }
-    await new Promise(resolve => setTimeout(resolve, 50));
-    smoothTransform = true;
   }
 
   /* Move the carousel forwards */
@@ -102,7 +97,7 @@
     {#each imgSrcs as src, i}
       <div class="carousel_item" 
         style="transform: translateX({transforms[i]}%);"
-        class:smooth_transform={(i==active || i==lastActive) && smoothTransform}
+        class:smooth_transform={(i==active || i==lastActive)}
       >
         <img src={src} alt="{i} of {imgSrcs.length}">
       </div>
@@ -127,8 +122,9 @@
     gap: 12px;
   }
   .nav_dot {
-    width: 10px;
-    height: 10px;
+    width: 12px;
+    height: 12px;
+    display: inline;
     background-color: #9d9d9d;
     border-radius: 50%;
     border: none;
