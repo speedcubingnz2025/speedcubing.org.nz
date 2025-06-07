@@ -131,9 +131,6 @@
     transition: color 0.5s ease;
     cursor: pointer;
   }
-  .nav_dot:hover{
-    background-color: #fff;
-  }
   .active_dot{
     background-color: #fff;
     opacity: 1;
@@ -186,6 +183,12 @@
     .carousel {
       height: 100vw;
       max-height: 70vh;
+    }
+  }
+  @media screen and (min-width: 769px){
+    /* Only have hover color effect on big screen to prevent touch issues */
+    .nav_dot:hover{
+      background-color: #fff;
     }
   }
 </style>

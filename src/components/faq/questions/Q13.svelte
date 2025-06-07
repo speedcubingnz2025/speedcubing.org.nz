@@ -8,5 +8,5 @@
   round. If you achieve a solve faster than the cutoff within your first 2 solves*, then you 
   will be allowed to complete your average. If you don’t, then your first two solves will still 
   count, but you will be unable to complete your last 3. This is just to make sure that we 
-  don’t run behind schedule.<br><br>For 6x6 and 7x7, the cutoff is after just 1 solve.
+  don’t run behind schedule.<br><br>*For 6x6 and 7x7, the cutoff is after just 1 solve.
 </p>

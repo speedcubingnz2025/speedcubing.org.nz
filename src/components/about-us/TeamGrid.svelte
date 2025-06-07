@@ -6,7 +6,7 @@
     {name: "Rohan Braganza", roles: "Treasurer", src: "Rohan.png"},
     {name: "Alex Asbery", roles: "Competition Team Leader, WCA Regional Delegate", src: "Alex.png"},
     {name: "Cam Gibson", roles: "Policy", src: "Cam.jpg"},
-    {name: "James Macdiarmid", roles: "Media Team Leader", src: "James_M.jpg"},
+    {name: "James Macdiarmid", roles: "Promo Team Leader", src: "James_M.jpg"},
     {name: "David Lim", roles: "WCA Delegate", src: "David.jpg"},
     {name: "Luke Heath-Edwards", roles: "WCA Delegate", src: "Luke.jpg"},
     {name: "Daniel Fraser", roles: "WCA Delegate", src: "Daniel.jpg"},
