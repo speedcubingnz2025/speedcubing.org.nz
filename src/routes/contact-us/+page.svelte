@@ -8,7 +8,6 @@
   import Links from "../../components/contact/Links.svelte";
   import WantToOrganise from "../../components/contact/WantToOrganise.svelte";
   import ContentColumn from "../../components/ContentColumn.svelte";
-  import Expandable from "../../components/Expandable.svelte";
   import Footer from "../../components/Footer.svelte";
   import Header from "../../components/Header.svelte";
   import PageTitle from "../../components/PageTitle.svelte";
@@ -16,7 +15,6 @@
   let imagePath = "/getting_started/getting_started.webp";
 </script>
 <Header></Header>
-<!-- <SpecificComp></SpecificComp> -->
 <ContentColumn>
   <h2>CONTACT US</h2>
   <div class="row">

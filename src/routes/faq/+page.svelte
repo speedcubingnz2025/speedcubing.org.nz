@@ -5,7 +5,6 @@
 <script>
   import "../../app.css";
   import ContentColumn from "../../components/ContentColumn.svelte";
-  import Expandable from "../../components/Expandable.svelte";
   import FaqInfo from "../../components/faq/FAQInfo.svelte";
   import Footer from "../../components/Footer.svelte";
   import Header from "../../components/Header.svelte";

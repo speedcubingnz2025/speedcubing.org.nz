@@ -100,19 +100,23 @@
     this time in Perth. Our New Zealand contingent proved dominant, winning over half the gold medals,
     and Dwyane managed to defend his title in 3x3!<br/><br/>
   
-    Since Speedcubing New Zealand was founded, the community here has changed immensely. We now
-    have far more demand, are more competitive on the world stage, and have seen so many new faces
-    join the community who can bring experience and fresh ideas to help run it. In early 2025,
-    Speedcubing New Zealand (2025) was registered as the new regional organisation for New Zealand,
-    in order to better serve the community here. We hope that with new leadership and a larger team,
-    we can serve the speedcubing community here even better.
+    Since Speedcubing New Zealand was founded, the community here has changed immensely. We’ve grown a 
+    tonne, with more demand, more comps, and an incredible amount of world-class cubers emerging. 
+    <a href="https://www.worldcubeassociation.org/persons/2022GIBS04">Lachlan Gibson</a> has proven 
+    to be our latest rising star, blowing us all away with a series of World Records in Clock. 
+    We’ve also seen so many new faces join the community who can bring experience and fresh ideas 
+    to help run it. In early 2025, Speedcubing New Zealand (2025) was registered as the new 
+    regional organisation for New Zealand, in order to better serve the community here. We hope
+    that with new leadership and a larger team, we can serve the 
+    speedcubing community here even better.
+
   </p>
 </section>
 
 <style>
   a {
     color: var(--colorBlue1);
-    text-decoration: underline;
+    text-decoration: none;
   }
   section{
     padding-bottom: 32px;
