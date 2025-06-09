@@ -4,14 +4,14 @@
 
 <script>
   import "../../app.css";
-  import Footer from "../../components/Footer.svelte";
-  import Header from "../../components/Header.svelte";
-  import BioCarousel from "../../components/nzs-best/bio_carousel/BioCarousel.svelte";
-  import PageTitle from "../../components/PageTitle.svelte";
-  let title = "NZ'S BEST";
-  let imagePath = "/nzs_best/flags.webp";
+  import PageTitle from "$lib/components/PageTitle.svelte";
+
+  import BioCarousel from "./BioCarousel.svelte";
+
+  const title = "NZ'S BEST";
+  const imagePath = "/nzs-best/title-bg.webp";
 </script>
-<Header></Header>
+
 <PageTitle {title} {imagePath}>
   <p>
     New Zealand punches well above our weight in the world of competitive speedcubing, producing 
@@ -23,4 +23,3 @@
 </PageTitle>
 <h2>CUBER BIOS</h2>
 <BioCarousel></BioCarousel>
-<Footer></Footer>

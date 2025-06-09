@@ -102,7 +102,7 @@ p {
   font-weight: 300;
 }
 
-.blueLink{
+a {
   color: var(--colorBlue1);
   text-decoration: none;
 }

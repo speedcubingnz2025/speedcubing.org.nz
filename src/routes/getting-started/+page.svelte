@@ -3,20 +3,18 @@
 </svelte:head>
 
 <script>
-  import "../../app.css";
-  import ContentColumn from "../../components/ContentColumn.svelte";
-  import Footer from "../../components/Footer.svelte";
-  import Header from "../../components/Header.svelte";
-  import PageTitle from "../../components/PageTitle.svelte";
-  import CubeClubsGrid from "../../components/getting-started/CubeClubsGrid.svelte";
-  import EventsInfo from "../../components/getting-started/EventsInfo.svelte";
-  import StoresGrid from "../../components/getting-started/StoresGrid.svelte";
-  import Video from "../../components/Video.svelte";
-  let imagePath = "/getting_started/getting_started.webp";
-  let title = "GETTING STARTED";
+  import ContentColumn from "$lib/components/ContentColumn.svelte";
+  import PageTitle from "$lib/components/PageTitle.svelte";
+  import Video from "$lib/components/Video.svelte";
 
+  import CubeClubsGrid from "./CubeClubsGrid.svelte";
+  import EventsInfo from "./EventsResources.svelte";
+  import StoresGrid from "./StoresGrid.svelte";
+
+  const imagePath = "/getting-started/title-bg.webp";
+  const title = "GETTING STARTED";
 </script>
-<Header></Header>
+
 <PageTitle {title} {imagePath}>
   <p>The Rubik's Cube has been puzzling millions of people for over 50 years! 
     Here, you can learn how to solve it, as well as a variety of other puzzles.
@@ -50,9 +48,8 @@
     of them below:</p>
 
     <EventsInfo></EventsInfo>
-    <p class="records_link">
+    <p class="centered">
       See the New Zealand National Records for each event <a
-        class="blueLink"
         href="./nzs-best"
       >here</a
       >.
@@ -64,13 +61,12 @@
     <CubeClubsGrid></CubeClubsGrid>
 
     <h2 class="title">CUBE STORES</h2>
-    <p class="stores_text">There are two great New Zealand-based speedcube stores:</p>
+    <p class="centered">There are two great New Zealand-based speedcube stores:</p>
     <StoresGrid></StoresGrid>
 </ContentColumn>
-<Footer></Footer>
 
 <style>
-  .records_link, .stores_text{
+  .centered {
     text-align: center;
   }
 </style>

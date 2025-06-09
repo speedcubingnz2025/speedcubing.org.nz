@@ -1,28 +1,23 @@
 <svelte:head>
-  <title>Contact | Speedcubing New Zealand</title>
+  <title>Contact Us | Speedcubing New Zealand</title>
 </svelte:head>
 
 <script>
-  import "../../app.css";
-  import GeneralContact from "../../components/contact/GeneralContact.svelte";
-  import Links from "../../components/contact/Links.svelte";
-  import WantToOrganise from "../../components/contact/WantToOrganise.svelte";
-  import ContentColumn from "../../components/ContentColumn.svelte";
-  import Footer from "../../components/Footer.svelte";
-  import Header from "../../components/Header.svelte";
-  import PageTitle from "../../components/PageTitle.svelte";
-  let title = "CONTACT US";
-  let imagePath = "/getting_started/getting_started.webp";
+  import ContentColumn from "$lib/components/ContentColumn.svelte";
+  import PageTitle from "$lib/components/PageTitle.svelte";
+
+  import Form from "./Form.svelte";
+  import ContactInfo from "./ContactInfo.svelte";
+
 </script>
-<Header></Header>
+
 <ContentColumn>
   <h2>CONTACT US</h2>
   <div class="row">
-    <Links></Links>
-    <GeneralContact></GeneralContact>
+    <ContactInfo></ContactInfo>
+    <Form></Form>
   </div>
 </ContentColumn>
-<Footer></Footer>
 
 <style>
   .row{

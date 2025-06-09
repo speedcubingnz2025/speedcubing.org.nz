@@ -3,19 +3,17 @@
 </svelte:head>
 
 <script>
-  import "../../app.css";
-  import CompSection from "../../components/competitions/CompSection.svelte";
-  import Tutorial from "../../components/competitions/Tutorial.svelte";
-  import Footer from "../../components/Footer.svelte";
-  import Header from "../../components/Header.svelte";
-  import ImageSlider from "../../components/ImageSlider.svelte";
-  import PageTitle from "../../components/PageTitle.svelte";
-  import Video from "../../components/Video.svelte";
-  let imagePath = "/competitions/title_bg.webp";
-  let title = `COMPETITIONS`;
+  import PageTitle from "$lib/components/PageTitle.svelte";
+  import Video from "$lib/components/Video.svelte";
+
+  import CompSection from "./CompSection.svelte";
+  import Tutorial from "./Tutorial.svelte";
+  import ImageRow from "./ImageRow.svelte";
+  
+  const imagePath = "/competitions/title-bg.webp";
+  const title = `COMPETITIONS`;
 </script>
 
-<Header></Header>
 <PageTitle {imagePath} {title}>
   <p>
     Competitions are one of the best ways to get involved in speedcubing! Don't
@@ -34,6 +32,5 @@
   </p>
 </PageTitle>
 <CompSection></CompSection>
-<ImageSlider></ImageSlider>
+<ImageRow></ImageRow>
 <Tutorial></Tutorial>
-<Footer></Footer>
