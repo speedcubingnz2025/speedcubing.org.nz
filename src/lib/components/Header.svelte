@@ -1,6 +1,12 @@
 <script>
+  import { afterNavigate } from '$app/navigation';
   import "bootstrap-icons/font/bootstrap-icons.css";
+
   let menuOpen = false;
+
+  afterNavigate(() => {
+    menuOpen = false;
+  });
 </script>
 
 <header class="header">
@@ -8,7 +14,7 @@
     <a href="/"><img src="logo/full-white.webp" alt="SNZ logo" /></a>
     <button
       class="hamburger"
-      on:click={() => (menuOpen = !menuOpen)}
+      onclick={() => (menuOpen = !menuOpen)}
       aria-label="menu"
     >
       <i class="bi bi-list"></i>
