@@ -4,7 +4,7 @@
       {
         "personId": "2022JOHN14",
         "eventId": "222",
-        "best": 47,
+        "best": "0.47",
         "name": "Connor Johnson",
         "link": "https://youtu.be/ZcirwweNCl0"
       }
@@ -13,7 +13,7 @@
       {
         "personId": "2022JOHN14",
         "eventId": "222",
-        "best": 128,
+        "best": "1.28",
         "name": "Connor Johnson",
         "link": "https://youtu.be/KWALo8fk3A4"
       }
@@ -24,7 +24,7 @@
       {
         "personId": "2019RAMO05",
         "eventId": "333",
-        "best": 454,
+        "best": "4.54",
         "name": "Dwyane Ramos",
         "link": "https://www.instagram.com/p/DE9cZJTPmH9/"
       }
@@ -33,7 +33,7 @@
       {
         "personId": "2018MURR03",
         "eventId": "333",
-        "best": 600,
+        "best": "6.00",
         "name": "Jasper Murray",
         "link": ""
       }
@@ -44,7 +44,7 @@
       {
         "personId": "2019VUJC01",
         "eventId": "444",
-        "best": 2043,
+        "best": "20.43",
         "name": "Alexander Vujcich",
         "link": ""
       }
@@ -53,7 +53,7 @@
       {
         "personId": "2019VUJC01",
         "eventId": "444",
-        "best": 2500,
+        "best": "24.87",
         "name": "Alexander Vujcich",
         "link": ""
       }
@@ -64,7 +64,7 @@
       {
         "personId": "2019VUJC01",
         "eventId": "555",
-        "best": 4065,
+        "best": "40.65",
         "name": "Alexander Vujcich",
         "link": ""
       }
@@ -73,7 +73,7 @@
       {
         "personId": "2019VUJC01",
         "eventId": "555",
-        "best": 4463,
+        "best": "44.63",
         "name": "Alexander Vujcich",
         "link": ""
       }
@@ -84,7 +84,7 @@
       {
         "personId": "2019RAMO05",
         "eventId": "666",
-        "best": 8238,
+        "best": "1:22.38",
         "name": "Dwyane Ramos",
         "link": ""
       }
@@ -93,7 +93,7 @@
       {
         "personId": "2019RAMO05",
         "eventId": "666",
-        "best": 8745,
+        "best": "1:27.45",
         "name": "Dwyane Ramos",
         "link": ""
       }
@@ -104,7 +104,7 @@
       {
         "personId": "2019RAMO05",
         "eventId": "777",
-        "best": 12908,
+        "best": "2:09.08",
         "name": "Dwyane Ramos",
         "link": ""
       }
@@ -113,7 +113,7 @@
       {
         "personId": "2019RAMO05",
         "eventId": "777",
-        "best": 13336,
+        "best": "2:13.36",
         "name": "Dwyane Ramos",
         "link": ""
       }
@@ -124,7 +124,7 @@
       {
         "personId": "2015MACD03",
         "eventId": "333bf",
-        "best": 1855,
+        "best": "18.55",
         "name": "James Macdiarmid",
         "link": ""
       }
@@ -133,7 +133,7 @@
       {
         "personId": "2015MACD03",
         "eventId": "333bf",
-        "best": 2127,
+        "best": "21.27",
         "name": "James Macdiarmid",
         "link": ""
       }
@@ -144,7 +144,7 @@
       {
         "personId": "2013NELS01",
         "eventId": "333fm",
-        "best": 20,
+        "best": "20",
         "name": "Tom Nelson",
         "link": ""
       }
@@ -153,7 +153,7 @@
       {
         "personId": "2013NELS01",
         "eventId": "333fm",
-        "best": 2233,
+        "best": "22.33",
         "name": "Tom Nelson",
         "link": ""
       }
@@ -164,7 +164,7 @@
       {
         "personId": "2019RAMO05",
         "eventId": "333oh",
-        "best": 712,
+        "best": "7.12",
         "name": "Dwyane Ramos",
         "link": ""
       }
@@ -173,7 +173,7 @@
       {
         "personId": "2019RAMO05",
         "eventId": "333oh",
-        "best": 847,
+        "best": "8.47",
         "name": "Dwyane Ramos",
         "link": "https://www.instagram.com/p/DIDmnDlzfjH/"
       }
@@ -184,7 +184,7 @@
       {
         "personId": "2022GIBS04",
         "eventId": "clock",
-        "best": 182,
+        "best": "1.82",
         "name": "Lachlan Gibson",
         "link": "https://youtube.com/shorts/Fmpc418VflE"
       }
@@ -193,7 +193,7 @@
       {
         "personId": "2022GIBS04",
         "eventId": "clock",
-        "best": 228,
+        "best": "2.28",
         "name": "Lachlan Gibson",
         "link": "https://youtu.be/1uT35-AhUOw"
       }
@@ -204,7 +204,7 @@
       {
         "personId": "2019VUJC01",
         "eventId": "minx",
-        "best": 2405,
+        "best": "24.05",
         "name": "Alexander Vujcich",
         "link": ""
       }
@@ -213,7 +213,7 @@
       {
         "personId": "2019VUJC01",
         "eventId": "minx",
-        "best": 2847,
+        "best": "28.24",
         "name": "Alexander Vujcich",
         "link": ""
       }
@@ -224,7 +224,7 @@
       {
         "personId": "2022JOHN14",
         "eventId": "pyram",
-        "best": 82,
+        "best": "0.82",
         "name": "Connor Johnson",
         "link": ""
       }
@@ -233,7 +233,7 @@
       {
         "personId": "2018MURR03",
         "eventId": "pyram",
-        "best": 140,
+        "best": "1.40",
         "name": "Jasper Murray",
         "link": "https://youtu.be/Yp8q26bE_vA"
       }
@@ -244,18 +244,18 @@
       {
         "personId": "2019RAMO05",
         "eventId": "skewb",
-        "best": 117,
+        "best": "1.17",
         "name": "Dwyane Ramos",
-        "link": ""
+        "link": "https://youtu.be/EEOeMwD9wuw"
       }
     ],
     "average": [
       {
         "personId": "2019RAMO05",
         "eventId": "skewb",
-        "best": 226,
+        "best": "2.26",
         "name": "Dwyane Ramos",
-        "link": "https://youtu.be/EEOeMwD9wuw"
+        "link": ""
       }
     ]
   },
@@ -264,7 +264,7 @@
       {
         "personId": "2018MATY02",
         "eventId": "sq1",
-        "best": 447,
+        "best": "4.47",
         "name": "Adrien Auvray Matyn",
         "link": "https://youtu.be/iNtbAkdb6WE"
       }
@@ -273,7 +273,7 @@
       {
         "personId": "2018MATY02",
         "eventId": "sq1",
-        "best": 565,
+        "best": "5.65",
         "name": "Adrien Auvray Matyn",
         "link": "https://youtu.be/Q-U0go61WCU"
       }
@@ -284,7 +284,7 @@
       {
         "personId": "2013NELS01",
         "eventId": "444bf",
-        "best": 10775,
+        "best": "1:47.75",
         "name": "Tom Nelson",
         "link": "https://youtu.be/ltD7XMIu7tc"
       }
@@ -293,7 +293,7 @@
       {
         "personId": "2013NELS01",
         "eventId": "444bf",
-        "best": 13937,
+        "best": "2:19.37",
         "name": "Tom Nelson",
         "link": "https://youtu.be/4_M4fUVf4_w"
       }
@@ -304,7 +304,7 @@
       {
         "personId": "2013NELS01",
         "eventId": "555bf",
-        "best": 22713,
+        "best": "3:47.13",
         "name": "Tom Nelson",
         "link": ""
       }
@@ -313,9 +313,9 @@
       {
         "personId": "2013NELS01",
         "eventId": "555bf",
-        "best": 27624,
+        "best": "4:36.24",
         "name": "Tom Nelson",
-        "link": "https://youtu.be/pBDPKIhMDpU"
+        "link": ""
       }
     ]
   },
@@ -324,9 +324,9 @@
       {
         "personId": "2015MACD03",
         "eventId": "333mbf",
-        "best": 520354303,
+        "best": "50/53 59:03",
         "name": "James Macdiarmid",
-        "link": "https://youtu.be/HO6Pvsy-ejs"
+        "link": ""
       }
     ],
     "average": null

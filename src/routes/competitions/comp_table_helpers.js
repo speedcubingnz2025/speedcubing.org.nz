@@ -1,23 +1,3 @@
- const eventOrder = [
-    "333",
-    "222",
-    "444",
-    "555",
-    "666",
-    "777",
-    "333bf",
-    "333fm",
-    "333oh",
-    "clock",
-    "minx",
-    "pyram",
-    "skewb",
-    "sq1",
-    "444bf",
-    "555bf",
-    "333mbf",
-  ];
-
 function getRegStatus(comp){
   const now = Date.now();
   const regOpens = new Date(comp.registration_open);
@@ -98,4 +78,4 @@ function extractMarkdownLink(text){
   return res[0];
 }
 
-export { eventOrder, getRegStatus, getCompStatus, makeRegText, extractMarkdownLink }
+export { getRegStatus, getCompStatus, makeRegText, extractMarkdownLink }

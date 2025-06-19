@@ -7,6 +7,7 @@
   import PageTitle from "$lib/components/PageTitle.svelte";
 
   import BioCarousel from "./BioCarousel.svelte";
+  import Records from "./Records.svelte";
 
   const title = "NZ'S BEST";
   const imagePath = "/nzs-best/title-bg.webp";
@@ -21,5 +22,8 @@
     about some of New Zealand's top cubers here!
   </p>
 </PageTitle>
+
+<Records></Records>
+
 <h2>CUBER BIOS</h2>
 <BioCarousel></BioCarousel>

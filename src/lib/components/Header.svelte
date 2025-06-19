@@ -68,7 +68,7 @@
   .nav a {
     font-weight: 400;
     font-family: 'Spartan MB', sans-serif;
-    font-size: clamp(1rem, 1vw, 1.5rem);
+    font-size: clamp(1rem, 1vw, 1.2rem);
     padding: clamp(12px, 2vw, 20px);
     text-decoration: none;
     color: #fff;
