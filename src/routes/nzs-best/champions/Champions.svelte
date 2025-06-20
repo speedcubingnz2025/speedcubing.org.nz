@@ -48,6 +48,7 @@
   .event-icons {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 4px;
     padding: 24px 0px;
