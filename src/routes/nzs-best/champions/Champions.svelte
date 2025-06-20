@@ -33,7 +33,7 @@
           <td>{year}</td>
           <td>{champion}</td>
           <td>{result}</td>
-          <td>{detail}</td>
+          <td><i>{detail}</i></td>
         </tr>
       {/each}
     </tbody>
