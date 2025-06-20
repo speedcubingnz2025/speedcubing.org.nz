@@ -20,6 +20,7 @@
     color: #fff;
     border: 1px solid var(--colorBlack1);
     padding: 4px;
+    font-size: clamp(1rem, 1.2vw, 1.3rem);
   }
   .result {
     display: flex;

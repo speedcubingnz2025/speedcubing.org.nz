@@ -80,6 +80,7 @@
     color: #fff;
     text-align: left;
     border: 1px solid var(--colorBlack1);
+    font-size: clamp(1rem, 1.2vw, 1.3rem);
   }
    /* Alternating background colors */
   tbody tr:nth-child(even) {
