@@ -49,7 +49,6 @@
     display: flex;
     flex-direction: row;
     gap: 16px 48px;
-    padding: 8px 0px 32px 0px;
     box-sizing: border-box;
   }
 
@@ -109,6 +108,7 @@
       align-items: center;
       background-color: var(--colorBlack3);
       width: 100%;
+      padding: 8px 0px 32px 0px;
     }
     .nav.open {
       display: flex;
