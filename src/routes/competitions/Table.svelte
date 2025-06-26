@@ -15,7 +15,7 @@
           <div class="container {comp.status}">
 
             <div class="col col-a">
-              <a href={comp.website} target="_blank">
+              <a href={comp.url} target="_blank">
                 <p class="comp-name">{comp.name}</p>
               </a>
               <Events events={comp.event_ids}></Events>
@@ -31,7 +31,7 @@
             </div>
             <div class="col col-c">
               <p class="comp-date">{comp.date_range.split(",")[0]}</p>
-                <a href="{comp.url}/register" target="_blank">
+                <a href="{comp.website}/register" target="_blank">
                   <i>
                     <h4 class="reg-text {comp.reg_status}">{makeRegText(comp)}</h4>
                   </i>
