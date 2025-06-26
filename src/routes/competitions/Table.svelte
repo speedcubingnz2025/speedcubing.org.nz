@@ -31,7 +31,7 @@
             </div>
             <div class="col col-c">
               <p class="comp-date">{comp.date_range.split(",")[0]}</p>
-                <a href="{comp.website}/register" target="_blank">
+                <a href="{comp.url}/register" target="_blank">
                   <i>
                     <h4 class="reg-text {comp.reg_status}">{makeRegText(comp)}</h4>
                   </i>
