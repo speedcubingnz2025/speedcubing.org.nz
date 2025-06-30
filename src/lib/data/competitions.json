@@ -367,27 +367,5 @@
       "pyram"
     ],
     "date_range": "Jun 14 - 15, 2025"
-  },
-  {
-    "id": "HurryUpHalswell2025",
-    "name": "Hurry Up Halswell 2025",
-    "venue": "Haswell Community Centre",
-    "city": "Christchurch",
-    "registration_open": "2025-05-02T00:00:00.000Z",
-    "registration_close": "2025-05-24T00:00:00.000Z",
-    "start_date": "2025-05-31",
-    "end_date": "2025-05-31",
-    "website": "https://www.worldcubeassociation.org/competitions/HurryUpHalswell2025",
-    "url": "https://www.worldcubeassociation.org/competitions/HurryUpHalswell2025",
-    "latitude_degrees": -43.586033,
-    "longitude_degrees": 172.570329,
-    "event_ids": [
-      "333",
-      "222",
-      "444",
-      "clock",
-      "pyram"
-    ],
-    "date_range": "May 31, 2025"
   }
 ]
