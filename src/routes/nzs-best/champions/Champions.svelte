@@ -24,7 +24,7 @@
         <th>Year</th>
         <th>Champion</th>
         <th>Result</th>
-        <th>Detail</th>
+        <th>Attempts</th>
       </tr>
     </thead>
     <tbody>
