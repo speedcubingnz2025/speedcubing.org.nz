@@ -33,6 +33,29 @@
     "date_range": "Dec 12 - 14, 2025"
   },
   {
+    "id": "DrurySummer2025",
+    "name": "Drury Summer 2025",
+    "venue": "Drury Hall ",
+    "city": "Auckland",
+    "registration_open": "2025-08-09T00:00:00.000Z",
+    "registration_close": "2025-11-12T00:00:00.000Z",
+    "start_date": "2025-11-15",
+    "end_date": "2025-11-15",
+    "website": "https://www.worldcubeassociation.org/competitions/DrurySummer2025",
+    "url": "https://www.worldcubeassociation.org/competitions/DrurySummer2025",
+    "latitude_degrees": -37.102396,
+    "longitude_degrees": 174.952777,
+    "event_ids": [
+      "333",
+      "222",
+      "444",
+      "333oh",
+      "skewb",
+      "sq1"
+    ],
+    "date_range": "Nov 15, 2025"
+  },
+  {
     "id": "NZCubingDecathlon2025",
     "name": "New Zealand Cubing Decathlon 2025",
     "venue": "Pakuranga United Rugby Club, Montressor's Function Centre",
@@ -297,30 +320,5 @@
       "333mbf"
     ],
     "date_range": "Jul 11 - 13, 2025"
-  },
-  {
-    "id": "WaihopaiWinter2025",
-    "name": "Waihopai Winter 2025",
-    "venue": "Invercargill City Library",
-    "city": "Invercargill",
-    "registration_open": "2025-05-30T00:00:00.000Z",
-    "registration_close": "2025-07-02T00:00:00.000Z",
-    "start_date": "2025-07-05",
-    "end_date": "2025-07-06",
-    "website": "https://www.worldcubeassociation.org/competitions/WaihopaiWinter2025",
-    "url": "https://www.worldcubeassociation.org/competitions/WaihopaiWinter2025",
-    "latitude_degrees": -46.411142,
-    "longitude_degrees": 168.347045,
-    "event_ids": [
-      "333",
-      "222",
-      "444",
-      "333bf",
-      "333oh",
-      "minx",
-      "pyram",
-      "skewb"
-    ],
-    "date_range": "Jul 5 - 6, 2025"
   }
 ]
