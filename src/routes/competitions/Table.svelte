@@ -1,7 +1,7 @@
 <!-- Table of competitions with a certain status -->
 
 <script>
-  import { extractMarkdownLink, makeRegText } from "./comp_table_helpers.js"
+  import { extractMarkdownLink } from "./comp_table_helpers.js"
   import Events from "./Events.svelte";
 
  const { comps } = $props();
@@ -12,7 +12,7 @@
     {#each comps as comp, i}
       <tr>
         <td>
-          <div class="container {comp.status}">
+          <div class="container {comp.status.whenStatus}">
 
             <div class="col col-a">
               <a href={comp.url} target="_blank">
@@ -33,12 +33,12 @@
               <p class="comp-date">{comp.date_range.split(",")[0]}</p>
                 <a href="{comp.website}/register" target="_blank">
                   <i>
-                    <h4 class="reg-text {comp.reg_status}">{makeRegText(comp)}</h4>
+                    <h4 class="reg-text {comp.status.regStatus}">{comp.status.regText}</h4>
                   </i>
                 </a>
             </div>
 
-            {#if ["current", "soon"].includes(comp.status)}
+            {#if comp.status.showActions}
               <div class="actions">
                 <button class="action" onclick={() => 
                 window.open(`https://live.worldcubeassociation.org/link/competitions/${comp.id}`,'_blank')}>
@@ -120,10 +120,7 @@
     padding-bottom: 4px;
   }
 
-  /* Comp status classes for the colors */
-  .soon {
-    border-left: 3px solid orange;
-  }
+  /* Comp whenStatus classes for the border colors */
   .upcoming {
     border-left: 3px solid var(--colorGreen1);
   }
@@ -134,13 +131,12 @@
     border-left: 3px solid var(--colorRed1);
   }
 
-  .open, .future {
+  /* Comp regStatus classes for the regText colors */
+  .open, .future, .ots {
     color: var(--colorGreen1);
   }
-  .closed, .full, .ots {
-    color: orange;
-  }
-  .recent .reg-text{
+
+  .recent, .closed, .full{
     color: var(--colorRed1);
   }
 

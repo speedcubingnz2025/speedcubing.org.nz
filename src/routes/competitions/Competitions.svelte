@@ -1,35 +1,16 @@
 <!-- Component containing all of the tables for competition statuses -->
 
 <script>
-  import { getRegStatus, getCompStatus } from "./comp_table_helpers.js"
+  import { status } from "./comp_table_helpers.js"
   import comps from "$lib/data/competitions.json";
   import Table from "./Table.svelte";
-
-  const today = new Date(Date.now())
-    .toLocaleDateString("en-NZ", {
-      timeZone: "Pacific/Auckland",
-      year: "numeric",
-      month: "2-digit",
-      day: "2-digit",
-    })
-    .split("/")
-    .reverse()
-    .join("-");
-
-  // "soon" and "upcoming" both go in upcoming
-  const buckets = {
-    current: [], upcoming: [], recent: []
-  }
-
-  // for each comp, set regText and status
-  for(const comp of comps){
-    comp.reg_status = getRegStatus(comp); // "open" | "closed" | "ots" | "full" | "future"
-    comp.status = getCompStatus(comp); // "current" | "soon" | "upcoming" | "recent"
-
-    // add to arrays depending on status. End bit is so that "soon" gets added to upcoming
-    buckets[comp.status] ? buckets[comp.status].push(comp) : buckets.upcoming.push(comp);
-  }
-
+  
+  const buckets = comps.reduce((acc, cur) => {
+    cur.status = status(cur);
+    acc[cur.status.whenStatus].push(cur);
+    return acc;
+  }, {current: [], upcoming: [], recent: []});
+  
   buckets.upcoming.reverse();
 </script>
 
