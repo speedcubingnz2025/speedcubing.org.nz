@@ -64,7 +64,7 @@
       {
         "personId": "2019VUJC01",
         "eventId": "555",
-        "best": "40.65",
+        "best": "38.32",
         "name": "Alexander Vujcich",
         "link": ""
       }
@@ -193,9 +193,9 @@
       {
         "personId": "2022GIBS04",
         "eventId": "clock",
-        "best": "2.28",
+        "best": "2.26",
         "name": "Lachlan Gibson",
-        "link": "https://youtu.be/1uT35-AhUOw"
+        "link": ""
       }
     ]
   },
