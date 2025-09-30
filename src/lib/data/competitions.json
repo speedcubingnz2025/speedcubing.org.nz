@@ -330,35 +330,5 @@
       "skewb"
     ],
     "date_range": "Sep 13, 2025"
-  },
-  {
-    "id": "OtepotiBigCubes2025",
-    "name": "Ōtepoti Big Cubes 2025",
-    "venue": "[Green Island Bowling Club](http://www.greenislandbowlingclub.co.nz)",
-    "city": "Dunedin",
-    "registration_open": "2025-06-06T00:00:00.000Z",
-    "registration_close": "2025-08-29T00:00:00.000Z",
-    "start_date": "2025-08-30",
-    "end_date": "2025-08-31",
-    "website": "https://www.worldcubeassociation.org/competitions/OtepotiBigCubes2025",
-    "url": "https://www.worldcubeassociation.org/competitions/OtepotiBigCubes2025",
-    "latitude_degrees": -45.901466,
-    "longitude_degrees": 170.431889,
-    "event_ids": [
-      "333",
-      "222",
-      "444",
-      "555",
-      "666",
-      "777",
-      "333bf",
-      "333oh",
-      "clock",
-      "minx",
-      "pyram",
-      "skewb",
-      "sq1"
-    ],
-    "date_range": "Aug 30 - 31, 2025"
   }
 ]
