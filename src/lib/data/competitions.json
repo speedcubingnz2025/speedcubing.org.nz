@@ -33,6 +33,37 @@
     "date_range": "Feb 27 - Mar 1, 2026"
   },
   {
+    "id": "HurryUpHuttValley2026",
+    "name": "Hurry Up Hutt Valley 2026",
+    "venue": "Epuni Community Hall",
+    "city": "Lower Hutt",
+    "registration_open": "2025-10-08T05:00:00.000Z",
+    "registration_close": "2026-01-05T10:59:00.000Z",
+    "start_date": "2026-01-10",
+    "end_date": "2026-01-11",
+    "website": "https://www.worldcubeassociation.org/competitions/HurryUpHuttValley2026",
+    "url": "https://www.worldcubeassociation.org/competitions/HurryUpHuttValley2026",
+    "latitude_degrees": -41.206716,
+    "longitude_degrees": 174.929916,
+    "event_ids": [
+      "333",
+      "222",
+      "444",
+      "555",
+      "666",
+      "777",
+      "333bf",
+      "333oh",
+      "clock",
+      "minx",
+      "pyram",
+      "skewb",
+      "sq1",
+      "444bf"
+    ],
+    "date_range": "Jan 10 - 11, 2026"
+  },
+  {
     "id": "Farewellington2025",
     "name": "Farewellington 2025",
     "venue": "1st Kelburn 1909 Scout Hall",
