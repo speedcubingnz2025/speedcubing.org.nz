@@ -7,7 +7,7 @@
     <a href="mailto:info@speedcubing.org.nz" aria-label="email">
       <i class="bi bi-envelope icon"></i>
     </a>
-    <a href="https://www.instagram.com/speedcubingnewzealand" aria-label="instagram" target="_blank">
+    <a href="https://www.instagram.com/speedcubingnz" aria-label="instagram" target="_blank">
       <i class="bi bi-instagram icon"></i>
     </a>
     <a href="https://facebook.com/SpeedcubingNZ" aria-label="facebook" target="_blank">
