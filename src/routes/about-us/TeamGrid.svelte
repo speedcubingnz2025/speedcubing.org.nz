@@ -12,7 +12,7 @@
     {name: "Luke Heath-Edwards", roles: "WCA Delegate", src: "luke.jpg", link: "https://www.worldcubeassociation.org/persons/2018HEAT01"},
     {name: "Daniel Fraser", roles: "WCA Delegate", src: "daniel.jpg", link: "https://www.worldcubeassociation.org/persons/2020FRAS02"},
     {name: "Liam Wadek", roles: "WCA Delegate", src: "liam.jpg", link: "https://www.worldcubeassociation.org/persons/2017WADE01"},
-    {name: "Caleb Hall", roles: "WCA Junior Delegate", src: "caleb.jpg", link: "https://www.worldcubeassociation.org/persons/2019HALL04"},
+    {name: "Caleb Hall", roles: "WCA Delegate", src: "caleb.jpg", link: "https://www.worldcubeassociation.org/persons/2019HALL04"},
     {name: "Jack Maddigan", roles: "WCA Junior Delegate", src: "jack.jpg", link: "https://www.worldcubeassociation.org/persons/2020MADD02"},
     {name: "James Dyer", roles: "WCA Trainee Delegate", src: "james-d.jpg", link: "https://www.worldcubeassociation.org/persons/2019DYER01"},
     {name: "Nick Ng", roles: "WCA Trainee Delegate", src: "Nick.png", link: "https://www.worldcubeassociation.org/persons/2024NGNI01"},
