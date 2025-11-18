@@ -41,7 +41,9 @@ async function scrapeKinchJSON() {
   const $ = cheerio.load(html);
   const countries = [];
 
-  $("table tbody tr").each((_, tr) => {
+  $("table tbody tr").each((i, tr) => {
+    if (i >= 30) return false; // stop after 30 rows
+
     const children = $(tr).children();
 
     const rank = parseInt($(children[0]).text().trim(), 10);
@@ -54,11 +56,9 @@ async function scrapeKinchJSON() {
       ? `https://twemoji.maxcdn.com/v/latest/72x72/${[...flagMatch[1].toUpperCase()].map(c => (0x1f1e6 + c.charCodeAt(0) - 65).toString(16)).join("-")}.png`
       : "";
 
-    // Overall is the 3rd column
     const overall = parseFloat($(children[2]).text().trim()) || 0;
 
     const scores = {};
-    // Events start at index 3
     Object.keys(eventMap).forEach((eventName, idx) => {
       const code = eventMap[eventName];
       const scoreTd = $(children[idx + 3]);
