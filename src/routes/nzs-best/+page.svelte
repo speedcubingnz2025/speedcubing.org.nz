@@ -9,6 +9,9 @@
   import BioCarousel from "./BioCarousel.svelte";
   import Records from "./Records.svelte";
   import Champions from "./champions/Champions.svelte";
+  import KinchTable from "./kinch/KinchTable.svelte";
+
+  export let data; // injected from +page.server.js
 
   const title = "NZ'S BEST";
   const imagePath = "/nzs-best/title-bg.webp";
@@ -24,9 +27,8 @@
   </p>
 </PageTitle>
 
-<Records></Records>
-
+<Records />
 <h2>CUBER BIOS</h2>
-<BioCarousel></BioCarousel>
-
-<Champions></Champions>
+<BioCarousel />
+<Champions />
+<KinchTable kinchData={data.kinchData} />
