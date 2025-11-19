@@ -64,18 +64,19 @@
   }
 
   .table-wrapper {
-    overflow-x: auto;
-    margin-top: 20px;
-    -webkit-overflow-scrolling: touch; /* smooth scrolling on iOS */
-  }
+  padding: 0 40px;          /* desktop side padding */
+  margin-top: 20px;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
 
-  table { 
-    border-collapse: collapse; 
-    width: 100%; 
-    background:#1c1c1c; 
-    box-shadow:0 2px 8px rgba(0,0,0,0.3); 
-    min-width: 800px; 
-  }
+table {
+  width: 100%;              /* fill full available width */
+  border-collapse: collapse;
+  background: #1c1c1c;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+
 
   th, td { 
     border:1px solid #333; 
