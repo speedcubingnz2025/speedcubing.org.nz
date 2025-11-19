@@ -10,6 +10,7 @@ import * as cheerio from "cheerio";
 import fs from "fs";
 import { fileURLToPath } from "url";
 import path from "path";
+import { eventOrder } from '../helpers.js';
 
 // Map full event names to codes
 const eventMap = {
@@ -65,8 +66,7 @@ async function scrapeKinchJSON() {
     const overall = parseFloat($(children[2]).text().trim()) || 0;
 
     const scores = {};
-    Object.keys(eventMap).forEach((eventName, idx) => {
-      const code = eventMap[eventName];
+    eventOrder.forEach((code, idx) => {
       const scoreTd = $(children[idx + 3]);
       const scoreText = scoreTd.text().trim();
       scores[code] = scoreText ? parseFloat(scoreText) : null;
