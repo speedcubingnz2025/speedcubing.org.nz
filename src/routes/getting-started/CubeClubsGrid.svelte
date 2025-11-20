@@ -1,6 +1,7 @@
 <script>
   import CubeClubCard from "./CubeClubCard.svelte";
   const clubs = [
+    {title: "Cubing East Auckland", location: "East Auckland", src: "east-akl.png", link: "https://www.cubingeastauckland.nz/home"},
     {title: "Auckland Speedcubing Club", location: "Auckland", src: "asc.png", link: "https://www.facebook.com/AucklandSpeedcubing/"},
     {title: "Christchurch Speedcubers", location: "Christchurch", src: "chch-cubers.png", link: "https://www.speedcube.co.nz/pages/christchurch-speedcubers"},
     {title: "Dunedin Speedcubers", location: "Dunedin", src: "dunedin.png", link: "https://cubeclubs.nz/meetups"},
@@ -11,6 +12,7 @@
     {title: "Waikato Speedcubers", location: "Hamilton", src: "waikato.png", link: "https://www.facebook.com/waikatospeedcubers"},
   ]
 </script>
+
 <section>
     {#each clubs as {title, location, src, link}}
       <div><CubeClubCard {title} {location} src="/getting-started/clubs/{src}" {link}></CubeClubCard></div>
@@ -31,6 +33,4 @@
       grid-template-columns: auto auto;
      }
   }
-
-
 </style>
