@@ -60,41 +60,41 @@
   }
 
   .kinch-yapping {
-  margin: 40px auto 0 auto; /* top margin 40px, center horizontally */
-  text-align: center;
-  max-width: 1200px;       /* prevents it from stretching too wide */
-  padding: 0 20px;         /* adds space on left and right */
-  box-sizing: border-box;  /* ensures padding doesn’t break max-width */
-}
-
+    margin: 40px auto 0 auto; /* top margin 40px, center horizontally */
+    text-align: center;
+    max-width: 1200px;       /* prevents it from stretching too wide */
+    padding: 0 20px;         /* adds space on left and right */
+    box-sizing: border-box;  /* ensures padding doesn’t break max-width */
+  }
 
   .table-wrapper {
-  padding: 0 40px;          /* desktop side padding */
-  margin-top: 20px;
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
-}
+    padding: 0 40px;          /* desktop side padding */
+    margin-top: 20px;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
 
-table {
-  width: 100%;              /* fill full available width */
-  border-collapse: collapse;
-  background: #1c1c1c;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
-}
-
+  table {
+    width: 100%;              
+    border-collapse: collapse;
+    background: #1c1c1c;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+  }
 
   th, td { 
     border:1px solid #333; 
     padding:6px 8px; 
     text-align:center; 
     font-size:13px; 
-    color:#fff; }
+    color:#fff; 
+  }
 
   th { 
     background-color:#46b04c; 
     color:white; 
     position:sticky; 
-    top:0; }
+    top:0; 
+  }
 
   tr:nth-child(even){ 
     background:#262626; 
@@ -113,7 +113,8 @@ table {
   }
 
   tr.highlight-nz { 
-    background:#333 !important; font-weight:bold; 
+    background:#333 !important; 
+    font-weight:bold; 
   }
 
   th:nth-child(-n+3), td:nth-child(-n+3) { 
@@ -128,5 +129,24 @@ table {
     background-size: contain;
     background-repeat: no-repeat;
     vertical-align: middle;
+  }
+
+  /* -------------------------- */
+  /*   MOBILE PADDING OVERRIDE  */
+  /* -------------------------- */
+  @media (max-width: 600px) {
+    .table-wrapper {
+      padding: 0 10px; /* reduce mobile side padding */
+    }
+
+    th, td {
+      padding: 4px 6px;
+      font-size: 12px;
+    }
+
+    .cubing-icon {
+      width: 24px;
+      height: 24px;
+    }
   }
 </style>
