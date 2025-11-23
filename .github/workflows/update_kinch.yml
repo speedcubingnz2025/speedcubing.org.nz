@@ -1,33 +1,48 @@
-name: Update Kinch Rankings
+name: Update kinch ranks
 
 on:
   schedule:
-    - cron: "0 0 * * 0" # weekly on Sunday
-  workflow_dispatch:
+    - cron: "55 11 * * *" # Runs daily at 11:55 UTC
+  workflow_dispatch: # Allows manual triggering from GitHub UI
+
+permissions:
+  contents: write # Allows committing changes to the repo
 
 jobs:
-  update:
+  update-kinch:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v2
 
-      - name: Setup Node
-        uses: actions/setup-node@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
         with:
-          node-version: 20
+          node-version: "20" # Use a stable Node.js version
 
       - name: Install dependencies
         run: npm install
 
-      - name: Run kinch updater
+      - name: Run the update script
         run: node src/lib/tasks/update_kinch.js
 
-      - name: Commit & push changes
+      - name: Check for changes
+        id: check_changes
         run: |
+          if git diff --quiet; then
+            echo "No changes detected."
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          else
+            echo "Changes detected."
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit changes
+        if: steps.check_changes.outputs.has_changes == 'true'
+        run: |
+          git config --local user.name "github-actions"
           git config --local user.email "github-actions@github.com"
-          git config --local user.name "GitHub Actions"
           git add src/lib/data/kinch.json
-          git commit -m "Update kinch rankings" || echo "No changes"
+          git commit -m "Update kinch.json"
           git push
