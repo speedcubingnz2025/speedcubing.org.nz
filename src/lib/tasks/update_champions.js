@@ -10,12 +10,14 @@ import { fetchUnnoficialAPI } from './unofficialAPI.js';
 async function run(year){
   console.info("Updating champions for", year);
 
-  const compIds = ["NewZealandNationals"]
+  // const compIds = ["NewZealandNationals"]
 
   // get championship ID's for the given year. Array because FMC only comps.
   const championshipsThisYear = (await fetchUnnoficialAPI(`championships/NZ`)).items
     .filter(c => c.id.endsWith(year))
     .map(c => c.id);
+
+  console.log(championshipsThisYear)
   
   // Making an assumption that the national champion is in the top 10 places to filter more out
   const champions = {};
