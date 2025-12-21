@@ -1,6 +1,125 @@
 [
   {
     "eventId": "222",
+    "year": 2025,
+    "champion": "Connor Johnson",
+    "result": "1.55",
+    "detail": "1.48, 1.58, (1.00), 1.58, (1.72)"
+  },
+  {
+    "eventId": "333",
+    "year": 2025,
+    "champion": "Andrew Feng",
+    "result": "5.64",
+    "detail": "5.42, (5.22), 5.82, (6.58), 5.68"
+  },
+  {
+    "eventId": "444",
+    "year": 2025,
+    "champion": "Alexander Vujcich",
+    "result": "24.12",
+    "detail": "(26.04), 25.24, 24.81, (20.64), 22.31"
+  },
+  {
+    "eventId": "555",
+    "year": 2025,
+    "champion": "Alexander Vujcich",
+    "result": "43.24",
+    "detail": "44.73, 40.66, (47.33), 44.32, (40.53)"
+  },
+  {
+    "eventId": "666",
+    "year": 2025,
+    "champion": "Henry Eyles",
+    "result": "1:24.96",
+    "detail": "1:26.39, 1:20.01, 1:28.49"
+  },
+  {
+    "eventId": "777",
+    "year": 2025,
+    "champion": "Henry Eyles",
+    "result": "2:13.37",
+    "detail": "2:09.28, 2:15.66, 2:15.17"
+  },
+  {
+    "eventId": "333bf",
+    "year": 2025,
+    "champion": "Tom Nelson",
+    "result": "35.63",
+    "detail": "35.63, DNF, 35.78"
+  },
+  {
+    "eventId": "333oh",
+    "year": 2025,
+    "champion": "Jasper Murray",
+    "result": "9.49",
+    "detail": "(8.27), 8.96, 8.98, (12.24), 10.54"
+  },
+  {
+    "eventId": "clock",
+    "year": 2025,
+    "champion": "Lachlan Gibson",
+    "result": "2.79",
+    "detail": "2.53, 3.37, 2.47, (2.30), (3.53)"
+  },
+  {
+    "eventId": "minx",
+    "year": 2025,
+    "champion": "Alexander Vujcich",
+    "result": "29.03",
+    "detail": "29.96, (27.91), (32.52), 28.02, 29.10"
+  },
+  {
+    "eventId": "pyram",
+    "year": 2025,
+    "champion": "Elyas Eyou",
+    "result": "2.06",
+    "detail": "(1.69), 1.87, (4.95), 2.50, 1.80"
+  },
+  {
+    "eventId": "skewb",
+    "year": 2025,
+    "champion": "Dwyane Ramos",
+    "result": "2.58",
+    "detail": "2.67, (2.98), 2.56, 2.51, (2.12)"
+  },
+  {
+    "eventId": "sq1",
+    "year": 2025,
+    "champion": "Adrien Auvray Matyn",
+    "result": "6.06",
+    "detail": "5.08, 6.19, (8.92), (4.92), 6.90"
+  },
+  {
+    "eventId": "444bf",
+    "year": 2025,
+    "champion": "Tom Nelson",
+    "result": "2:29.53",
+    "detail": "2:29.53, DNF, DNF"
+  },
+  {
+    "eventId": "555bf",
+    "year": 2025,
+    "champion": "Jack McDougall",
+    "result": "6:15.38",
+    "detail": "6:15.38, DNF, DNF"
+  },
+  {
+    "eventId": "333mbf",
+    "year": 2025,
+    "champion": "James Macdiarmid",
+    "result": "36/53 1:00:00",
+    "detail": "36/53 1:00:00, 28/51 1:00:00"
+  },
+  {
+    "eventId": "333fm",
+    "year": 2025,
+    "champion": "Tom Nelson",
+    "result": "24.00",
+    "detail": "22, 25, 25"
+  },
+  {
+    "eventId": "222",
     "year": 2024,
     "champion": "Connor Johnson",
     "result": "1.59",
@@ -1405,124 +1524,5 @@
     "champion": "Dene Beardsley",
     "result": "2:17.90",
     "detail": "2:01.84, 2:58.61, (1:53.25)"
-  },
-  {
-    "eventId": "222",
-    "year": 2025,
-    "champion": "Connor Johnson",
-    "result": "1.55",
-    "detail": "1.48, 1.58, (1.00), 1.58, (1.72)"
-  },
-  {
-    "eventId": "333",
-    "year": 2025,
-    "champion": "Andrew Feng",
-    "result": "5.64",
-    "detail": "5.42, (5.22), 5.82, (6.58), 5.68"
-  },
-  {
-    "eventId": "444",
-    "year": 2025,
-    "champion": "Alexander Vujcich",
-    "result": "24.12",
-    "detail": "(26.04), 25.24, 24.81, (20.64), 22.31"
-  },
-  {
-    "eventId": "555",
-    "year": 2025,
-    "champion": "Alexander Vujcich",
-    "result": "43.24",
-    "detail": "44.73, 40.66, (47.33), 44.32, (40.53)"
-  },
-  {
-    "eventId": "666",
-    "year": 2025,
-    "champion": "Henry Eyles",
-    "result": "1:24.96",
-    "detail": "1:26.39, 1:20.01, 1:28.49"
-  },
-  {
-    "eventId": "777",
-    "year": 2025,
-    "champion": "Henry Eyles",
-    "result": "2:13.37",
-    "detail": "2:09.28, 2:15.66, 2:15.17"
-  },
-  {
-    "eventId": "333bf",
-    "year": 2025,
-    "champion": "Tom Nelson",
-    "result": "35.63",
-    "detail": "35.63, DNF, 35.78"
-  },
-  {
-    "eventId": "333oh",
-    "year": 2025,
-    "champion": "Jasper Murray",
-    "result": "9.49",
-    "detail": "(8.27), 8.96, 8.98, (12.24), 10.54"
-  },
-  {
-    "eventId": "clock",
-    "year": 2025,
-    "champion": "Lachlan Gibson",
-    "result": "2.79",
-    "detail": "2.53, 3.37, 2.47, (2.30), (3.53)"
-  },
-  {
-    "eventId": "minx",
-    "year": 2025,
-    "champion": "Alexander Vujcich",
-    "result": "29.03",
-    "detail": "29.96, (27.91), (32.52), 28.02, 29.10"
-  },
-  {
-    "eventId": "pyram",
-    "year": 2025,
-    "champion": "Elyas Eyou",
-    "result": "2.06",
-    "detail": "(1.69), 1.87, (4.95), 2.50, 1.80"
-  },
-  {
-    "eventId": "skewb",
-    "year": 2025,
-    "champion": "Dwyane Ramos",
-    "result": "2.58",
-    "detail": "2.67, (2.98), 2.56, 2.51, (2.12)"
-  },
-  {
-    "eventId": "sq1",
-    "year": 2025,
-    "champion": "Adrien Auvray Matyn",
-    "result": "6.06",
-    "detail": "5.08, 6.19, (8.92), (4.92), 6.90"
-  },
-  {
-    "eventId": "444bf",
-    "year": 2025,
-    "champion": "Tom Nelson",
-    "result": "2:29.53",
-    "detail": "2:29.53, DNF, DNF"
-  },
-  {
-    "eventId": "555bf",
-    "year": 2025,
-    "champion": "Jack McDougall",
-    "result": "6:15.38",
-    "detail": "6:15.38, DNF, DNF"
-  },
-  {
-    "eventId": "333mbf",
-    "year": 2025,
-    "champion": "James Macdiarmid",
-    "result": "36/53 1:00:00",
-    "detail": "36/53 1:00:00, 28/51 1:00:00"
-  },
-  {
-    "eventId": "333fm",
-    "year": 2025,
-    "champion": "Tom Nelson",
-    "result": "24.00",
-    "detail": "22, 25, 25"
   }
 ]
