@@ -245,31 +245,5 @@
       "333fm"
     ],
     "date_range": "Dec 6, 2025"
-  },
-  {
-    "id": "WellingtonSpring2025",
-    "name": "Wellington Spring 2025",
-    "venue": "[Johnsonville Community Centre](https://www.johnsonvillecommunitycentre.org.nz/)",
-    "city": "Wellington",
-    "registration_open": "2025-08-11T06:00:00.000Z",
-    "registration_close": "2025-11-17T10:59:00.000Z",
-    "start_date": "2025-11-22",
-    "end_date": "2025-11-22",
-    "website": "https://www.worldcubeassociation.org/competitions/WellingtonSpring2025",
-    "url": "https://www.worldcubeassociation.org/competitions/WellingtonSpring2025",
-    "latitude_degrees": -41.222527,
-    "longitude_degrees": 174.805124,
-    "event_ids": [
-      "333",
-      "222",
-      "444",
-      "333bf",
-      "clock",
-      "pyram",
-      "skewb",
-      "444bf",
-      "555bf"
-    ],
-    "date_range": "Nov 22, 2025"
   }
 ]
