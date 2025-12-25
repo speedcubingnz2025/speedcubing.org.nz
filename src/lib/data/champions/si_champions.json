@@ -1,0 +1,520 @@
+[
+  {
+    "eventId": "222",
+    "year": 2025,
+    "champion": "Connor Johnson",
+    "result": "1.56",
+    "detail": "1.40, (1.83), 1.46, 1.82, (1.34)"
+  },
+  {
+    "eventId": "333",
+    "year": 2025,
+    "champion": "Jasper Murray",
+    "result": "6.30",
+    "detail": "6.45, (5.08), 5.76, (7.65), 6.69"
+  },
+  {
+    "eventId": "444",
+    "year": 2025,
+    "champion": "Jasper Murray",
+    "result": "28.75",
+    "detail": "31.06, 26.70, (33.39), (24.54), 28.50"
+  },
+  {
+    "eventId": "555",
+    "year": 2025,
+    "champion": "Dwyane Ramos",
+    "result": "49.06",
+    "detail": "47.83, 49.23, (45.78), 50.13, (54.45)"
+  },
+  {
+    "eventId": "666",
+    "year": 2025,
+    "champion": "Dwyane Ramos",
+    "result": "1:37.20",
+    "detail": "1:40.70, 1:34.38, 1:36.52"
+  },
+  {
+    "eventId": "777",
+    "year": 2025,
+    "champion": "Dwyane Ramos",
+    "result": "2:19.88",
+    "detail": "2:13.52, 2:26.05, 2:20.08"
+  },
+  {
+    "eventId": "333bf",
+    "year": 2025,
+    "champion": "Oscar Childs",
+    "result": "1:04.34",
+    "detail": "1:22.63, 1:04.34, DNF"
+  },
+  {
+    "eventId": "333oh",
+    "year": 2025,
+    "champion": "Jasper Murray",
+    "result": "9.82",
+    "detail": "(8.91), 10.67, 9.55, (12.00), 9.25"
+  },
+  {
+    "eventId": "clock",
+    "year": 2025,
+    "champion": "Connor Johnson",
+    "result": "6.35",
+    "detail": "(DNF), (5.01), 7.37, 5.86, 5.81"
+  },
+  {
+    "eventId": "minx",
+    "year": 2025,
+    "champion": "Henry Eyles",
+    "result": "43.65",
+    "detail": "(50.49), 42.33, 46.18, (40.83), 42.45"
+  },
+  {
+    "eventId": "pyram",
+    "year": 2025,
+    "champion": "Jasper Murray",
+    "result": "2.22",
+    "detail": "2.18, (1.58), 2.30, 2.17, (2.45)"
+  },
+  {
+    "eventId": "skewb",
+    "year": 2025,
+    "champion": "Dwyane Ramos",
+    "result": "3.02",
+    "detail": "(5.41), (1.97), 3.27, 2.95, 2.84"
+  },
+  {
+    "eventId": "sq1",
+    "year": 2025,
+    "champion": "Adrien Auvray Matyn",
+    "result": "5.69",
+    "detail": "(7.23), 5.40, 5.74, 5.92, (5.38)"
+  },
+  {
+    "eventId": "444bf",
+    "year": 2025,
+    "champion": "Connor Johnson",
+    "result": "7:34.42",
+    "detail": "7:34.42, 7:37.98, DNF"
+  },
+  {
+    "eventId": "555bf",
+    "year": 2025,
+    "champion": "Connor Johnson",
+    "result": "21:59.00",
+    "detail": "21:59.00, DNS, DNS"
+  },
+  {
+    "eventId": "333mbf",
+    "year": 2025,
+    "champion": "Rory Bailey",
+    "result": "7/8 45:59",
+    "detail": "5/7 41:50, 7/8 45:59"
+  },
+  {
+    "eventId": "222",
+    "year": 2024,
+    "champion": "Connor Johnson",
+    "result": "1.85",
+    "detail": "1.84, (2.94), 1.92, 1.78, (1.70)"
+  },
+  {
+    "eventId": "333",
+    "year": 2024,
+    "champion": "Jasper Murray",
+    "result": "7.37",
+    "detail": "(5.91), (7.96), (11.18), 7.89, 6.25"
+  },
+  {
+    "eventId": "444",
+    "year": 2024,
+    "champion": "Dwyane Ramos",
+    "result": "29.08",
+    "detail": "27.79, (22.79), 28.35, 31.09, (32.88)"
+  },
+  {
+    "eventId": "555",
+    "year": 2024,
+    "champion": "Dwyane Ramos",
+    "result": "52.77",
+    "detail": "49.61, 55.69, (47.01), (57.20), 53.00"
+  },
+  {
+    "eventId": "666",
+    "year": 2024,
+    "champion": "Dwyane Ramos",
+    "result": "1:37.99",
+    "detail": "1:29.37, 1:35.45, 1:49.16"
+  },
+  {
+    "eventId": "777",
+    "year": 2024,
+    "champion": "Dwyane Ramos",
+    "result": "2:34.77",
+    "detail": "2:29.85, 2:35.53, 2:38.93"
+  },
+  {
+    "eventId": "333bf",
+    "year": 2024,
+    "champion": "Dwyane Ramos",
+    "result": "46.10",
+    "detail": "46.10, 1:30.52, 1:20.77"
+  },
+  {
+    "eventId": "333oh",
+    "year": 2024,
+    "champion": "Dwyane Ramos",
+    "result": "9.85",
+    "detail": "9.18, (8.39), 9.93, 10.44, (DNF)"
+  },
+  {
+    "eventId": "clock",
+    "year": 2024,
+    "champion": "Dwyane Ramos",
+    "result": "4.27",
+    "detail": "(6.96), (3.85), 4.71, 3.93, 4.16"
+  },
+  {
+    "eventId": "minx",
+    "year": 2024,
+    "champion": "Jasper Murray",
+    "result": "29.92",
+    "detail": "46.05, (35.95), 41.69, 42.93, (49.62)"
+  },
+  {
+    "eventId": "skewb",
+    "year": 2024,
+    "champion": "Dwyane Ramos",
+    "result": "3.31",
+    "detail": "2.60, 4.08, (4.99), 3.26, (1.75)"
+  },
+  {
+    "eventId": "sq1",
+    "year": 2024,
+    "champion": "Dwyane Ramos",
+    "result": "9.62",
+    "detail": "10.17, 8.88, (8.15), 9.81, (16.32)"
+  },
+  {
+    "eventId": "333mbf",
+    "year": 2024,
+    "champion": "Dwyane Ramos",
+    "result": "8/12 42:43",
+    "detail": "8/12 42:43, 7/12 48:56"
+  },
+  {
+    "eventId": "333fm",
+    "year": 2024,
+    "champion": "Daniel Fraser",
+    "result": "34.33",
+    "detail": "34, 33, 36"
+  },
+  {
+    "eventId": "222",
+    "year": 2023,
+    "champion": "Connor Johnson",
+    "result": "2.01",
+    "detail": "1.90, (3.50), 1.67, 2.45, (1.61)"
+  },
+  {
+    "eventId": "333",
+    "year": 2023,
+    "champion": "Dwyane Ramos",
+    "result": "7.70",
+    "detail": "7.15, (7.01), 7.37, 8.59, (8.76)"
+  },
+  {
+    "eventId": "444",
+    "year": 2023,
+    "champion": "Jasper Murray",
+    "result": "30.72",
+    "detail": "(29.01), 30.03, 30.20, (33.82), 31.93"
+  },
+  {
+    "eventId": "555",
+    "year": 2023,
+    "champion": "Jasper Murray",
+    "result": "54.57",
+    "detail": "(55.96), 55.71, 52.99, (52.50), 55.02"
+  },
+  {
+    "eventId": "666",
+    "year": 2023,
+    "champion": "Dwyane Ramos",
+    "result": "1:39.99",
+    "detail": "1:40.81, 1:42.65, 1:36.50"
+  },
+  {
+    "eventId": "777",
+    "year": 2023,
+    "champion": "Dwyane Ramos",
+    "result": "2:41.63",
+    "detail": "2:40.86, 2:54.60, 2:29.42"
+  },
+  {
+    "eventId": "333bf",
+    "year": 2023,
+    "champion": "Dwyane Ramos",
+    "result": "1:08.45",
+    "detail": "1:08.45, DNF, DNF"
+  },
+  {
+    "eventId": "333oh",
+    "year": 2023,
+    "champion": "Dwyane Ramos",
+    "result": "10.30",
+    "detail": "(8.03), 9.19, 9.60, (12.18), 12.10"
+  },
+  {
+    "eventId": "clock",
+    "year": 2023,
+    "champion": "Dwyane Ramos",
+    "result": "6.12",
+    "detail": "6.15, 6.70, (4.91), 5.50, DNF"
+  },
+  {
+    "eventId": "minx",
+    "year": 2023,
+    "champion": "Jasper Murray",
+    "result": "44.99",
+    "detail": "(43.42), 43.98, (52.25), 45.70, 45.28"
+  },
+  {
+    "eventId": "pyram",
+    "year": 2023,
+    "champion": "Jasper Murray",
+    "result": "1.55",
+    "detail": "(1.28), (2.82), 1.49, 1.34, 1.81"
+  },
+  {
+    "eventId": "skewb",
+    "year": 2023,
+    "champion": "Dwyane Ramos",
+    "result": "2.85",
+    "detail": "(2.54), (3.69), 2.64, 2.65, 3.25"
+  },
+  {
+    "eventId": "sq1",
+    "year": 2023,
+    "champion": "Dwyane Ramos",
+    "result": "14.23",
+    "detail": "(10.31), 15.42, 14.79, (31.34), 12.48"
+  },
+  {
+    "eventId": "333mbf",
+    "year": 2023,
+    "champion": "Dwyane Ramos",
+    "result": "7/7 31:24",
+    "detail": "7/7 31:24"
+  },
+  {
+    "eventId": "333fm",
+    "year": 2023,
+    "champion": "Jasper Murray",
+    "result": "34.00",
+    "detail": "33, 38, 31"
+  },
+  {
+    "eventId": "222",
+    "year": 2022,
+    "champion": "Dwyane Ramos",
+    "result": "2.28",
+    "detail": "2.38, 2.28, 2.19, (1.75), (2.40)"
+  },
+  {
+    "eventId": "333",
+    "year": 2022,
+    "champion": "Dwyane Ramos",
+    "result": "6.94",
+    "detail": "(9.57), 7.34, (6.16), 6.83, 6.64"
+  },
+  {
+    "eventId": "444",
+    "year": 2022,
+    "champion": "Jasper Murray",
+    "result": "31.37",
+    "detail": "31.27, 32.06, (35.50), 30.78, (30.13)"
+  },
+  {
+    "eventId": "555",
+    "year": 2022,
+    "champion": "Ben Kirby",
+    "result": "54.48",
+    "detail": "(59.62), (52.21), 53.28, 54.48, 55.69"
+  },
+  {
+    "eventId": "666",
+    "year": 2022,
+    "champion": "Ben Kirby",
+    "result": "1:46.53",
+    "detail": "1:47.02, 1:46.30, 1:46.26"
+  },
+  {
+    "eventId": "777",
+    "year": 2022,
+    "champion": "Ben Kirby",
+    "result": "2:51.41",
+    "detail": "2:45.38, 2:59.67, 2:49.18"
+  },
+  {
+    "eventId": "333bf",
+    "year": 2022,
+    "champion": "Dwyane Ramos",
+    "result": "46.63",
+    "detail": "1:13.30, 46.63, DNF"
+  },
+  {
+    "eventId": "333fm",
+    "year": 2022,
+    "champion": "Ben Kirby",
+    "result": "36.67",
+    "detail": "38, 35, 37"
+  },
+  {
+    "eventId": "333oh",
+    "year": 2022,
+    "champion": "Dwyane Ramos",
+    "result": "10.27",
+    "detail": "9.65, 11.57, (11.58), (7.66), 9.58"
+  },
+  {
+    "eventId": "clock",
+    "year": 2022,
+    "champion": "Daniel Fraser",
+    "result": "9.05",
+    "detail": "9.94, (8.30), 8.89, 8.32, (DNF)"
+  },
+  {
+    "eventId": "minx",
+    "year": 2022,
+    "champion": "Jasper Murray",
+    "result": "48.26",
+    "detail": "50.30, 43.16, (54.10), 51.31, (42.64)"
+  },
+  {
+    "eventId": "pyram",
+    "year": 2022,
+    "champion": "Jasper Murray",
+    "result": "2.24",
+    "detail": "2.09, 2.45, (1.46), 2.17, (4.59)"
+  },
+  {
+    "eventId": "skewb",
+    "year": 2022,
+    "champion": "Isaac Latta",
+    "result": "3.37",
+    "detail": "3.21, 3.19, (2.95), 3.70, (3.76)"
+  },
+  {
+    "eventId": "sq1",
+    "year": 2022,
+    "champion": "Adrien Auvray Matyn",
+    "result": "7.15",
+    "detail": "(7.58), 6.97, 7.32, (6.94), 7.16"
+  },
+  {
+    "eventId": "333mbf",
+    "year": 2022,
+    "champion": "Adrien Auvray Matyn",
+    "result": "2/4 32:21",
+    "detail": "2/4 32:21"
+  },
+  {
+    "eventId": "222",
+    "year": 2021,
+    "champion": "Dwyane Ramos",
+    "result": "2.89",
+    "detail": "(2.03), 2.79, 2.93, 2.95, (4.30)"
+  },
+  {
+    "eventId": "333",
+    "year": 2021,
+    "champion": "Adrien Auvray Matyn",
+    "result": "7.26",
+    "detail": "(9.68), (5.71), 8.12, 7.07, 6.60"
+  },
+  {
+    "eventId": "444",
+    "year": 2021,
+    "champion": "Ben Kirby",
+    "result": "30.35",
+    "detail": "29.79, 31.93, (28.37), 29.33, (39.31)"
+  },
+  {
+    "eventId": "555",
+    "year": 2021,
+    "champion": "Ben Kirby",
+    "result": "57.81",
+    "detail": "1:00.60, (53.48), 55.14, (1:00.72), 57.69"
+  },
+  {
+    "eventId": "666",
+    "year": 2021,
+    "champion": "Ben Kirby",
+    "result": "1:53.52",
+    "detail": "1:49.56, 2:06.56, 1:44.44"
+  },
+  {
+    "eventId": "777",
+    "year": 2021,
+    "champion": "Ben Kirby",
+    "result": "3:12.95",
+    "detail": "3:11.26, 3:26.78, 3:00.82"
+  },
+  {
+    "eventId": "333bf",
+    "year": 2021,
+    "champion": "Tom Stanton-Barnett",
+    "result": "1:47.72",
+    "detail": "3:20.75, 1:47.72, DNF"
+  },
+  {
+    "eventId": "333oh",
+    "year": 2021,
+    "champion": "Dwyane Ramos",
+    "result": "10.40",
+    "detail": "9.66, 11.70, (11.94), 9.84, (9.20)"
+  },
+  {
+    "eventId": "clock",
+    "year": 2021,
+    "champion": "Daniel Fraser",
+    "result": "7.66",
+    "detail": "(5.92), 6.48, (10.09), 6.50, 10.01"
+  },
+  {
+    "eventId": "minx",
+    "year": 2021,
+    "champion": "Jasper Murray",
+    "result": "56.05",
+    "detail": "54.74, (1:02.25), 58.94, (53.58), 54.46"
+  },
+  {
+    "eventId": "pyram",
+    "year": 2021,
+    "champion": "Jasper Murray",
+    "result": "2.66",
+    "detail": "3.46, (4.17), 2.34, 2.18, (1.83)"
+  },
+  {
+    "eventId": "skewb",
+    "year": 2021,
+    "champion": "Dwyane Ramos",
+    "result": "2.68",
+    "detail": "2.84, 2.55, (2.95), (2.25), 2.65"
+  },
+  {
+    "eventId": "sq1",
+    "year": 2021,
+    "champion": "Dwyane Ramos",
+    "result": "13.31",
+    "detail": "13.95, 13.91, (15.13), 12.07, (10.91)"
+  },
+  {
+    "eventId": "333mbf",
+    "year": 2021,
+    "champion": "Adrien Auvray Matyn",
+    "result": "2/4 38:39",
+    "detail": "2/4 38:39"
+  }
+]

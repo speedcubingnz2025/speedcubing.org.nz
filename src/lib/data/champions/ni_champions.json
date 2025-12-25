@@ -1,0 +1,583 @@
+[
+  {
+    "eventId": "222",
+    "year": 2025,
+    "champion": "Jack Maddigan",
+    "result": "1.67",
+    "detail": "(4.42), (1.57), 1.58, 1.74, 1.68"
+  },
+  {
+    "eventId": "333",
+    "year": 2025,
+    "champion": "Carol Chai",
+    "result": "8.49",
+    "detail": "9.31, (10.06), (7.45), 7.96, 8.20"
+  },
+  {
+    "eventId": "444",
+    "year": 2025,
+    "champion": "Jack McDougall",
+    "result": "28.75",
+    "detail": "31.06, 26.70, (33.39), (24.54), 28.50"
+  },
+  {
+    "eventId": "555",
+    "year": 2025,
+    "champion": "Jack McDougall",
+    "result": "1:04.68",
+    "detail": "(1:10.69), 1:05.23, 1:05.29, 1:03.51, (59.27)"
+  },
+  {
+    "eventId": "666",
+    "year": 2025,
+    "champion": "Jack McDougall",
+    "result": "2:12.54",
+    "detail": "2:11.92, 2:11.02, 2:14.68"
+  },
+  {
+    "eventId": "777",
+    "year": 2025,
+    "champion": "Liam Wadek",
+    "result": "3:11.14",
+    "detail": "2:24.27, 2:32.65, 2:18.48"
+  },
+  {
+    "eventId": "333bf",
+    "year": 2025,
+    "champion": "Jack McDougall",
+    "result": "26.18",
+    "detail": "DNF, 26.18, 40.07"
+  },
+  {
+    "eventId": "333oh",
+    "year": 2025,
+    "champion": "Dylan Himmelfarb",
+    "result": "16.55",
+    "detail": "17.73, (12.14), 17.59, 14.34, (33.01)"
+  },
+  {
+    "eventId": "clock",
+    "year": 2025,
+    "champion": "Edwin Shen",
+    "result": "4.53",
+    "detail": "4.25, (3.02), 5.52, 3.83, (DNF)"
+  },
+  {
+    "eventId": "minx",
+    "year": 2025,
+    "champion": "Brandon Harris",
+    "result": "36.15",
+    "detail": "34.94, (34.41), 35.57, (38.05), 37.94"
+  },
+  {
+    "eventId": "pyram",
+    "year": 2025,
+    "champion": "Carol Chai",
+    "result": "2.44",
+    "detail": "(4.17), 2.84, (2.06), 2.28, 2.19"
+  },
+  {
+    "eventId": "skewb",
+    "year": 2025,
+    "champion": "Jack McDougall",
+    "result": "3.27",
+    "detail": "3.34, 3.10, 3.37, (5.88), (2.75)"
+  },
+  {
+    "eventId": "sq1",
+    "year": 2025,
+    "champion": "Jack McDougall",
+    "result": "11.32",
+    "detail": "(DNF), 11.98, 12.99, 8.98, (8.25)"
+  },
+  {
+    "eventId": "444bf",
+    "year": 2025,
+    "champion": "Tom Nelson",
+    "result": "1:47.52",
+    "detail": "DNF, DNF, 1:47.52"
+  },
+  {
+    "eventId": "555bf",
+    "year": 2025,
+    "champion": "Jack McDougall",
+    "result": "6:18.21",
+    "detail": "6:18.21, DNF, DNF"
+  },
+  {
+    "eventId": "333mbf",
+    "year": 2025,
+    "champion": "Jack McDougall",
+    "result": "20/22 57:01",
+    "detail": "17/20 52:18, 20/22 57:01"
+  },
+  {
+    "eventId": "333fm",
+    "year": 2025,
+    "champion": "Tom Nelson",
+    "result": "24.00",
+    "detail": "22, 25, 25"
+  },
+  {
+    "eventId": "222",
+    "year": 2024,
+    "champion": "Jack Maddigan",
+    "result": "1.60",
+    "detail": "1.62, 1.76, (1.15), (1.98), 1.43"
+  },
+  {
+    "eventId": "333",
+    "year": 2024,
+    "champion": "Chris Mills",
+    "result": "6.24",
+    "detail": "6.24, 7.20, 5.27, (7.27), (5.07)"
+  },
+  {
+    "eventId": "444",
+    "year": 2024,
+    "champion": "Alexander Vujcich",
+    "result": "26.72",
+    "detail": "26.96, 25.46, (28.17), (24.01), 27.74"
+  },
+  {
+    "eventId": "555",
+    "year": 2024,
+    "champion": "Alexander Vujcich",
+    "result": "48.46",
+    "detail": "47.74, 49.61, 48.02, (DNF), (44.56)"
+  },
+  {
+    "eventId": "666",
+    "year": 2024,
+    "champion": "Richard Yiheng Tao",
+    "result": "1:49.37",
+    "detail": "1:47.44, 1:53.37, 1:47.30"
+  },
+  {
+    "eventId": "777",
+    "year": 2024,
+    "champion": "Richard Yiheng Tao",
+    "result": "2:43.31",
+    "detail": "2:40.32, 2:42.97, 2:46.64"
+  },
+  {
+    "eventId": "333bf",
+    "year": 2024,
+    "champion": "James Macdiarmid",
+    "result": "20.57",
+    "detail": "20.57, DNF, 22.51"
+  },
+  {
+    "eventId": "333oh",
+    "year": 2024,
+    "champion": "Richard Yiheng Tao",
+    "result": "12.25",
+    "detail": "(10.71), (14.68), 13.54, 11.25, 11.96"
+  },
+  {
+    "eventId": "clock",
+    "year": 2024,
+    "champion": "Brandon Harris",
+    "result": "4,72",
+    "detail": "5.47, 5.08, (DNF), (3.60), 3.60"
+  },
+  {
+    "eventId": "minx",
+    "year": 2024,
+    "champion": "Alexander Vujcich",
+    "result": "29.59",
+    "detail": "29.65, (28.34), 30.47, 28.64, (34.22)"
+  },
+  {
+    "eventId": "pyram",
+    "year": 2024,
+    "champion": "Alexander Vujcich",
+    "result": "2.86",
+    "detail": "(1.73), 3.44, 3.00, 2.13, (3.92)"
+  },
+  {
+    "eventId": "skewb",
+    "year": 2024,
+    "champion": "Chris Mills",
+    "result": "3.76",
+    "detail": "(4.70), (3.00), 4.01, 3.48, 3.79"
+  },
+  {
+    "eventId": "sq1",
+    "year": 2024,
+    "champion": "Ashley Foster",
+    "result": "9.74",
+    "detail": "10.59, (8.23), 9.25, 9.38, (DNF)"
+  },
+  {
+    "eventId": "444bf",
+    "year": 2024,
+    "champion": "Tom Nelson",
+    "result": "2:45.56",
+    "detail": "DNF, 2:45.56, DNF"
+  },
+  {
+    "eventId": "555bf",
+    "year": 2024,
+    "champion": "Jack McDougall",
+    "result": "14:20.00",
+    "detail": "14:20.00, DNS, DNS"
+  },
+  {
+    "eventId": "333mbf",
+    "year": 2024,
+    "champion": "James Macdiarmid",
+    "result": "39/49 1:00:00",
+    "detail": "39/49 1:00:00, 37/48 1:00:00"
+  },
+  {
+    "eventId": "333fm",
+    "year": 2024,
+    "champion": "Tom Nelson",
+    "result": "22.67",
+    "detail": "23, 20, 25"
+  },
+  {
+    "eventId": "222",
+    "year": 2023,
+    "champion": "Alexander Vujcich",
+    "result": "1.82",
+    "detail": "(2.57), 1.94, (1.52), 1.90, 1.61"
+  },
+  {
+    "eventId": "333",
+    "year": 2023,
+    "champion": "Richard Yiheng Tao",
+    "result": "7.18",
+    "detail": "6.83, 7.15, 7.56, (9.83), (6.00)"
+  },
+  {
+    "eventId": "444",
+    "year": 2023,
+    "champion": "Alexander Vujcich",
+    "result": "29.45",
+    "detail": "(25.06), 31.48, 26.42, 30.44, (32.13)"
+  },
+  {
+    "eventId": "555",
+    "year": 2023,
+    "champion": "Angela Braganza",
+    "result": "57.48",
+    "detail": "(1:06.47), (51.45), 59.39, 57.64, 55.42"
+  },
+  {
+    "eventId": "666",
+    "year": 2023,
+    "champion": "Angela Braganza",
+    "result": "1:46.09",
+    "detail": "1:43.40, 1:40.64, 1:54.24"
+  },
+  {
+    "eventId": "777",
+    "year": 2023,
+    "champion": "Angela Braganza",
+    "result": "2:46.79",
+    "detail": "2:41.54, 2:39.00, 2:59.83"
+  },
+  {
+    "eventId": "333bf",
+    "year": 2023,
+    "champion": "Tom Nelson",
+    "result": "30.32",
+    "detail": "DNF, 30.32, 33.88"
+  },
+  {
+    "eventId": "333oh",
+    "year": 2023,
+    "champion": "Gen Kimura",
+    "result": "15.62",
+    "detail": "(12.75), 13.46, 13.46, 19.95, (DNF)"
+  },
+  {
+    "eventId": "clock",
+    "year": 2023,
+    "champion": "Richard Yiheng Tao",
+    "result": "4.66",
+    "detail": "4.71, (6.66), 4.54, 4.74, (4.42)"
+  },
+  {
+    "eventId": "minx",
+    "year": 2023,
+    "champion": "Alexander Vujcich",
+    "result": "33.20",
+    "detail": "(31.81), 33.69, 32.33, 33.57, (35.60)"
+  },
+  {
+    "eventId": "pyram",
+    "year": 2023,
+    "champion": "Elyas Eyou",
+    "result": "2.15",
+    "detail": "1.75, 2.22, (3.25), (1.54), 2.49"
+  },
+  {
+    "eventId": "skewb",
+    "year": 2023,
+    "champion": "Oscar McEvoy",
+    "result": "3.32",
+    "detail": "3.86, 3.09, 3.02, (5.07), (2.93)"
+  },
+  {
+    "eventId": "sq1",
+    "year": 2023,
+    "champion": "Ashley Foster",
+    "result": "11.63",
+    "detail": "10.58, (10.06), (14.00), 11.95, 12.35"
+  },
+  {
+    "eventId": "444bf",
+    "year": 2023,
+    "champion": "Jim Zhu",
+    "result": "5:56.97",
+    "detail": "DNF, DNF, 5:56.97"
+  },
+  {
+    "eventId": "333mbf",
+    "year": 2023,
+    "champion": "James Macdiarmid",
+    "result": "37/41 57:43",
+    "detail": "37/41 57:43"
+  },
+  {
+    "eventId": "333fm",
+    "year": 2023,
+    "champion": "Tom Nelson",
+    "result": "22.33",
+    "detail": "24, 21, 22"
+  },
+  {
+    "eventId": "222",
+    "year": 2022,
+    "champion": "Elyas Eyou",
+    "result": "2.17",
+    "detail": "(3.23), 1.90, 2.70, (1.50), 1.92"
+  },
+  {
+    "eventId": "333",
+    "year": 2022,
+    "champion": "Simon Geertsema",
+    "result": "7.89",
+    "detail": "7.60, 8.42, (10.32), (7.39), 7.66"
+  },
+  {
+    "eventId": "444",
+    "year": 2022,
+    "champion": "Simon Geertsema",
+    "result": "35.05",
+    "detail": "(38.99), 38.77, 32.62, (31.96), 33.77"
+  },
+  {
+    "eventId": "555",
+    "year": 2022,
+    "champion": "Alexander Vujcich",
+    "result": "1:05.44",
+    "detail": "(1:09.69), (1:01.89), 1:05.09, 1:05.83, 1:05.41"
+  },
+  {
+    "eventId": "666",
+    "year": 2022,
+    "champion": "Liam Wadek",
+    "result": "2:15.60",
+    "detail": "2:25.15, 2:10.70, 2:10.94"
+  },
+  {
+    "eventId": "777",
+    "year": 2022,
+    "champion": "Liam Wadek",
+    "result": "3:21.68",
+    "detail": "3:21.78, 3:22.43, 3:20.83"
+  },
+  {
+    "eventId": "333bf",
+    "year": 2022,
+    "champion": "James Macdiarmid",
+    "result": "23.50",
+    "detail": "23.50, 26.98, 25.45"
+  },
+  {
+    "eventId": "333fm",
+    "year": 2022,
+    "champion": "Tom Nelson",
+    "result": "27.00",
+    "detail": "25, 25, 31"
+  },
+  {
+    "eventId": "333oh",
+    "year": 2022,
+    "champion": "Simon Geertsema",
+    "result": "17.19",
+    "detail": "(15.10), (21.09), 16.65, 15.82, 19.10"
+  },
+  {
+    "eventId": "clock",
+    "year": 2022,
+    "champion": "Liam Wadek",
+    "result": "6.33",
+    "detail": "(3.50), 8.02, 5.00, 5.98, (DNF)"
+  },
+  {
+    "eventId": "minx",
+    "year": 2022,
+    "champion": "Alexander Vujcich",
+    "result": "35.75",
+    "detail": "(34.71), 34.83, (38.83), 35.64, 36.79"
+  },
+  {
+    "eventId": "pyram",
+    "year": 2022,
+    "champion": "Jules Graham",
+    "result": "2.53",
+    "detail": "(3.38), (1.88), 2.56, 2.42, 2.61"
+  },
+  {
+    "eventId": "skewb",
+    "year": 2022,
+    "champion": "Jack McDougall",
+    "result": "4.69",
+    "detail": "(3.72), 4.65, 5.05, (6.57), 4.38"
+  },
+  {
+    "eventId": "sq1",
+    "year": 2022,
+    "champion": "Elyas Eyou",
+    "result": "11.71",
+    "detail": "(10.14), 12.84, 10.51, 11.78, (15.54)"
+  },
+  {
+    "eventId": "444bf",
+    "year": 2022,
+    "champion": "Tom Nelson",
+    "result": "2:02.90",
+    "detail": "2:02.90, 2:22.54, 2:32.67"
+  },
+  {
+    "eventId": "555bf",
+    "year": 2022,
+    "champion": "Tom Nelson",
+    "result": "3:47.13",
+    "detail": "DNF, 4:56.25, 3:47.13"
+  },
+  {
+    "eventId": "333mbf",
+    "year": 2022,
+    "champion": "Tom Nelson",
+    "result": "19/28 59:56",
+    "detail": "19/28 59:56"
+  },
+  {
+    "eventId": "222",
+    "year": 2021,
+    "champion": "Alexander Vujcich",
+    "result": "1.99",
+    "detail": "1.78, (1.51), 2.44, (6.53), 1.75"
+  },
+  {
+    "eventId": "333",
+    "year": 2021,
+    "champion": "Simon Geertsema",
+    "result": "8.13",
+    "detail": "9.14, 7.43, 7.83, (7.41), (11.23)"
+  },
+  {
+    "eventId": "444",
+    "year": 2021,
+    "champion": "Angela Braganza",
+    "result": "30.82",
+    "detail": "30.73, 32.55, (27.70), (32.98), 29.19"
+  },
+  {
+    "eventId": "555",
+    "year": 2021,
+    "champion": "Angela Braganza",
+    "result": "1:03.62",
+    "detail": "(1:05.24), 1:04.02, (1:00.31), 1:03.88, 1:02.97"
+  },
+  {
+    "eventId": "666",
+    "year": 2021,
+    "champion": "Angela Braganza",
+    "result": "2:19.95",
+    "detail": "2:08.49, 2:19.31, 2:32.05"
+  },
+  {
+    "eventId": "777",
+    "year": 2021,
+    "champion": "Caleb Hall",
+    "result": "3:57.79",
+    "detail": "3:55.46, 4:06.03, 3:51.89"
+  },
+  {
+    "eventId": "333bf",
+    "year": 2021,
+    "champion": "Tom Nelson",
+    "result": "29.42",
+    "detail": "DNF, 51.83, 29.42"
+  },
+  {
+    "eventId": "333oh",
+    "year": 2021,
+    "champion": "Caleb Hall",
+    "result": "15.70",
+    "detail": "15.66, 15.89, (17.68), (14.72), 15.55"
+  },
+  {
+    "eventId": "clock",
+    "year": 2021,
+    "champion": "Edwin Shen",
+    "result": "6.85",
+    "detail": "5.84, (DNF), 6.07, (4.22), 8.65"
+  },
+  {
+    "eventId": "minx",
+    "year": 2021,
+    "champion": "James Macdiarmid",
+    "result": "39.70",
+    "detail": "(35.98), 39.95, 41.83, 37.33, (48.47)"
+  },
+  {
+    "eventId": "pyram",
+    "year": 2021,
+    "champion": "Ashley Foster",
+    "result": "2.85",
+    "detail": "3.10, (3.95), 2.72, (2.64), 2.72"
+  },
+  {
+    "eventId": "skewb",
+    "year": 2021,
+    "champion": "Caleb Hall",
+    "result": "4.22",
+    "detail": "3.62, (2.74), (4.59), 4.50, 4.55"
+  },
+  {
+    "eventId": "sq1",
+    "year": 2021,
+    "champion": "Elyas Eyou",
+    "result": "9.59",
+    "detail": "(7.27), (11.70), 9.86, 10.44, 8.46"
+  },
+  {
+    "eventId": "444bf",
+    "year": 2021,
+    "champion": "Tom Nelson",
+    "result": "2:30.55",
+    "detail": "2:30.55, 2:30.56, DNF"
+  },
+  {
+    "eventId": "555bf",
+    "year": 2021,
+    "champion": "Tom Nelson",
+    "result": "4:17.61",
+    "detail": "DNF, DNF, 4:17.61"
+  },
+  {
+    "eventId": "333mbf",
+    "year": 2021,
+    "champion": "Tom Nelson",
+    "result": "26/30 1:00:00",
+    "detail": "26/30 1:00:00"
+  }
+]

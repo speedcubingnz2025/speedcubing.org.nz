@@ -70,6 +70,7 @@
 <style>
   .kinch-yapping {
     margin: 40px auto 0 auto;
+    margin-top: 0px;
     text-align: center;
     max-width: 1200px;
     padding: 0 20px;
