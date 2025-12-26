@@ -17,8 +17,8 @@
     "eventId": "444",
     "year": 2025,
     "champion": "Jack McDougall",
-    "result": "28.75",
-    "detail": "31.06, 26.70, (33.39), (24.54), 28.50"
+    "result": "32.97",
+    "detail": "33.12, (33.29), (29.87), 32.91, 32.88"
   },
   {
     "eventId": "555",
@@ -178,7 +178,7 @@
     "eventId": "clock",
     "year": 2024,
     "champion": "Brandon Harris",
-    "result": "4,72",
+    "result": "4.72",
     "detail": "5.47, 5.08, (DNF), (3.60), 3.60"
   },
   {
