@@ -24,7 +24,7 @@
     <thead>
       <tr>
         <th>Rank</th>
-        <th>Country</th>
+        <th class="country-header">Country</th>
         <th>Overall</th>
         {#each events as e}
           <th>{@html eventToIcon(e)}</th>
@@ -37,7 +37,7 @@
           <td>{c.rank}</td>
 
           <!-- FLAG + COUNTRY NAME: now unbreakable -->
-          <td>
+          <td class="country-col">
             <span class="country-cell">
               <img
                 src={c.flag}
@@ -110,6 +110,10 @@
     background:#262626; 
   }
 
+  tr:nth-child(odd){ 
+    background:#1c1c1c; 
+  }
+
   td:first-child, th:first-child { 
     text-align:right; 
   }
@@ -138,12 +142,27 @@
     align-items: center;
   }
 
+  .country-col {
+    position: sticky;
+    left: 0;
+    background-color: inherit;
+  }
+
+  .country-header {
+    position: sticky;
+    left: 0;
+    background-color: var(--colorGreen1);
+    z-index: 2;
+  }
+
+
+
   /* -------------------------- */
   /*   MOBILE PADDING OVERRIDE  */
   /* -------------------------- */
   @media (max-width: 600px) {
     .table-wrapper {
-      padding: 0 10px;
+      padding: 0;
     }
 
     th, td {
