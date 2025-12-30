@@ -1,5 +1,3 @@
-<!-- The JS scraper is in src/tasks/update_kinch.js -->
-<!-- This svelte table handles rendering -->
 <script>
   import kinchData from "$lib/data/kinch.json";
 
@@ -23,7 +21,7 @@
   <table>
     <thead>
       <tr>
-        <th>Rank</th>
+        <th class="rank-header">Rank</th>
         <th class="country-header">Country</th>
         <th>Overall</th>
         {#each events as e}
@@ -34,7 +32,7 @@
     <tbody>
       {#each kinchData as c}
         <tr class={c.country.toLowerCase() === "new zealand" ? "highlight-nz" : ""}>
-          <td>{c.rank}</td>
+          <td class="rank-col">{c.rank}</td>
 
           <!-- FLAG + COUNTRY NAME: now unbreakable -->
           <td class="country-col">
@@ -101,8 +99,6 @@
   th { 
     background-color:#46b04c; 
     color:white; 
-    position:sticky; 
-    top:0; 
   }
 
   tr:nth-child(even){ 
@@ -152,6 +148,20 @@
     left: 0;
     background-color: var(--colorGreen1);
     z-index: 2;
+  }
+
+  .rank-header {
+    position: sticky;
+    left: 0;
+    background-color: var(--colorGreen1);
+    z-index: 2;
+    width: 100px;
+  }
+
+  .rank-col {
+    position: sticky;
+    left: 0;
+    background-color: inherit;
   }
 
 

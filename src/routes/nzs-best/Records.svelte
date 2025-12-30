@@ -1,5 +1,4 @@
 <script>
-  import "$lib/css/font-icons.css";
   import "bootstrap-icons/font/bootstrap-icons.css";
   import ContentColumn from "$lib/components/ContentColumn.svelte";
   import records from "$lib/data/records.json";
@@ -13,7 +12,7 @@
   <section class="container">
     {#each events as [eventId, data], i}
       <span class="title">
-        <i class="icon-{eventId} icon"></i>
+        <i class="cubing-icon event-{eventId} icon"></i>
         <p class="event-name">{eventNames[i]}</p>
       </span>
       <table>
