@@ -47,8 +47,8 @@
   <!-- Event icons -->
   <div class="event-icons">
     {#each eventOrder as eventId}
-      <button type="button" aria-label="{eventId} icon" class="icon-button" onclick={() => currentEvent = eventId}>
-        <i class="icon-{eventId} icon" class:active={currentEvent === eventId}></i>
+      <button type="button" aria-label="{eventId} icon" class="icon-button" onclick={() => currentEvent=eventId}>
+        <i class="cubing-icon event-{eventId} icon" class:active={currentEvent === eventId}></i>
       </button>
     {/each}
   </div>

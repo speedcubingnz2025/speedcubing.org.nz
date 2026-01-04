@@ -1,5 +1,3 @@
-<!-- The JS scraper is in src/tasks/update_kinch.js -->
-<!-- This svelte table handles rendering -->
 <script>
   import kinchData from "$lib/data/kinch.json";
 
@@ -23,34 +21,31 @@
   <table>
     <thead>
       <tr>
-        <th>Rank</th>
-        <th>Country</th>
-        <th>Overall</th>
+        <th class="col-1">Rank</th>
+        <th class="col-2">Country</th>
+        <th class="under">Overall</th>
         {#each events as e}
-          <th>{@html eventToIcon(e)}</th>
+          <th class="under">{@html eventToIcon(e)}</th>
         {/each}
       </tr>
     </thead>
     <tbody>
       {#each kinchData as c}
         <tr class={c.country.toLowerCase() === "new zealand" ? "highlight-nz" : ""}>
-          <td>{c.rank}</td>
-
-          <!-- FLAG + COUNTRY NAME: now unbreakable -->
-          <td>
+          <td class="col-1">{c.rank}</td>
+          <td class="col-2">
             <span class="country-cell">
               <img
                 src={c.flag}
                 alt={c.country}
                 width="24"
                 height="24"
-                style="vertical-align:middle; margin-right:6px;"
               >
               {c.country}
             </span>
           </td>
 
-          <td>{c.overall.toFixed(2)}</td>
+          <td class="overall">{c.overall.toFixed(2)}</td>
 
           {#each events as e}
             <td>{c.scores[e].toFixed(2)}</td>
@@ -69,86 +64,105 @@
 
 <style>
   .kinch-yapping {
-    margin: 40px auto 0 auto;
-    margin-top: 0px;
     text-align: center;
     max-width: 1200px;
-    padding: 0 20px;
+    padding: 0 16px;
     box-sizing: border-box;
   }
 
   .table-wrapper {
-    padding: 0 40px;
-    margin-top: 20px;
+    margin: 16px 32px;
+    max-width: 100%;
     overflow-x: auto;
+    max-height: calc(100svh - 150px);
     -webkit-overflow-scrolling: touch;
   }
 
   table {
     width: 100%;
-    border-collapse: collapse;
-    background: #1c1c1c;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    border-spacing: 0;
+    border-collapse: separate;
   }
 
   th, td { 
-    border:1px solid #333; 
-    padding:6px 8px; 
+    padding: 6px 8px; 
+    border-right: 1px solid var(--colorBlack1);
+    border-bottom: 1px solid var(--colorBlack1);
     text-align:center; 
-    font-size:13px; 
-    color:#fff; 
+    color: #fff;
+    box-sizing: border-box;
   }
 
   th { 
     background-color:#46b04c; 
-    color:white; 
-    position:sticky; 
-    top:0; 
+    position: sticky;
+    top: 0;
   }
 
-  tr:nth-child(even){ 
-    background:#262626; 
+  tbody tr:nth-child(even) td { 
+    background: var(--colorCompTable2); 
+  }
+
+  tbody tr:nth-child(odd) td { 
+    background: var(--colorCompTable1); 
   }
 
   td:first-child, th:first-child { 
     text-align:right; 
   }
 
-  td:nth-child(2), th:nth-child(2) { 
-    text-align:left; 
-  }
-
-  img { 
-    vertical-align: middle; 
+  /* Make overall score and header bold */
+  .overall { 
+    font-weight: bold; 
   }
 
   tr.highlight-nz { 
     background:#333 !important; 
-    font-weight:bold; 
+    font-weight: bold;
   }
 
-  th:nth-child(-n+3), td:nth-child(-n+3) { 
-    font-weight: bold; 
-  }
 
   /* Prevent flag + country name from breaking */
   .country-cell {
     white-space: nowrap;
     display: inline-flex;
     align-items: center;
+    gap: 8px;
   }
 
-  /* -------------------------- */
-  /*   MOBILE PADDING OVERRIDE  */
-  /* -------------------------- */
-  @media (max-width: 600px) {
-    .table-wrapper {
-      padding: 0 10px;
-    }
+  .col-1 {
+    position: sticky;
+    left: 0;
+    min-width: 3em;
+    max-width: 3em;
+    border-left: 1px solid var(--colorBlack1);
+  }
 
-    th, td {
-      padding: 4px 6px;
-      font-size: 12px;
+  .col-2 {
+    position: sticky;
+    text-align: left;
+    left: 3em;
+  }
+
+  thead th {
+    border-top: 1px solid var(--colorBlack1);
+  }
+
+  tbody .col-1, tbody .col-2 {
+    z-index: 30;
+  }
+
+  thead .col-1, thead .col-2 {
+    z-index: 40;
+  }
+
+  thead .under {
+    z-index: 20;
+  }
+
+  @media screen and (max-width: 769px) {
+    .table-wrapper {
+      margin: 16px;
     }
   }
 </style>
