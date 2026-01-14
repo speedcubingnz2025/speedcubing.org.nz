@@ -34,6 +34,39 @@
     "date_range": "Jul 10 - 12, 2026"
   },
   {
+    "id": "NZSouthIslandChamps2026",
+    "name": "NZ South Island Championship 2026",
+    "venue": "Shirley Boys High",
+    "city": "Christchurch",
+    "registration_open": "2026-01-16T00:00:00.000Z",
+    "registration_close": "2026-04-05T00:00:00.000Z",
+    "start_date": "2026-04-10",
+    "end_date": "2026-04-12",
+    "website": "https://www.worldcubeassociation.org/competitions/NZSouthIslandChamps2026",
+    "url": "https://www.worldcubeassociation.org/competitions/NZSouthIslandChamps2026",
+    "latitude_degrees": -43.494468,
+    "longitude_degrees": 172.708412,
+    "event_ids": [
+      "333",
+      "222",
+      "444",
+      "555",
+      "666",
+      "777",
+      "333bf",
+      "333oh",
+      "clock",
+      "minx",
+      "pyram",
+      "skewb",
+      "sq1",
+      "444bf",
+      "555bf",
+      "333mbf"
+    ],
+    "date_range": "Apr 10 - 12, 2026"
+  },
+  {
     "id": "NZNorthIslandChampionship2026",
     "name": "NZ North Island Championship 2026",
     "venue": "Mount Sports Centre",
@@ -194,38 +227,5 @@
       "sq1"
     ],
     "date_range": "Dec 31, 2025 - Jan 1, 2026"
-  },
-  {
-    "id": "NewZealandNationals2025",
-    "name": "New Zealand Nationals 2025",
-    "venue": "Auckland Netball Centre",
-    "city": "Auckland",
-    "registration_open": "2025-05-21T06:00:00.000Z",
-    "registration_close": "2025-12-05T10:59:00.000Z",
-    "start_date": "2025-12-12",
-    "end_date": "2025-12-14",
-    "website": "https://www.worldcubeassociation.org/competitions/NewZealandNationals2025",
-    "url": "https://www.worldcubeassociation.org/competitions/NewZealandNationals2025",
-    "latitude_degrees": -36.884675,
-    "longitude_degrees": 174.844483,
-    "event_ids": [
-      "333",
-      "222",
-      "444",
-      "555",
-      "666",
-      "777",
-      "333bf",
-      "333oh",
-      "clock",
-      "minx",
-      "pyram",
-      "skewb",
-      "sq1",
-      "444bf",
-      "555bf",
-      "333mbf"
-    ],
-    "date_range": "Dec 12 - 14, 2025"
   }
 ]
