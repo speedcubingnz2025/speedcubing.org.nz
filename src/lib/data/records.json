@@ -33,7 +33,7 @@
       {
         "personId": "2020FENG02",
         "eventId": "333",
-        "best": "5.64",
+        "best": "5.49",
         "name": "Andrew Feng",
         "link": ""
       }
@@ -53,7 +53,7 @@
       {
         "personId": "2019VUJC01",
         "eventId": "444",
-        "best": "23.39",
+        "best": "23.20",
         "name": "Alexander Vujcich",
         "link": ""
       }
@@ -82,10 +82,10 @@
   "666": {
     "single": [
       {
-        "personId": "2021EYLE01",
+        "personId": "2019RAMO05",
         "eventId": "666",
-        "best": "1:20.01",
-        "name": "Henry Eyles",
+        "best": "1:15.71",
+        "name": "Dwyane Ramos",
         "link": ""
       }
     ],
