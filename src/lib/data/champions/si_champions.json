@@ -130,7 +130,7 @@
     "year": 2024,
     "champion": "Jasper Murray",
     "result": "7.37",
-    "detail": "(5.91), (7.96), (11.18), 7.89, 6.25"
+    "detail": "(5.91), 7.96, (11.18), 7.89, 6.25"
   },
   {
     "eventId": "444",
@@ -277,7 +277,7 @@
     "year": 2023,
     "champion": "Dwyane Ramos",
     "result": "6.12",
-    "detail": "6.15, 6.70, (4.91), 5.50, DNF"
+    "detail": "6.15, 6.70, (4.91), 5.50, (DNF)"
   },
   {
     "eventId": "minx",
