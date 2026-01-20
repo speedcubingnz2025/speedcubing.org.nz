@@ -34,7 +34,7 @@
   <p class="kinch-text">
     Countries are ranked with a system called "Kinch Ranks", where every
     National Record is given a score based on how it compares to the World
-    Record in that event, and those scores are averaged to give an overalls
+    Record in that event, and those scores are averaged to give an overall
     score for a country.
   </p>
 </ContentColumn>
