@@ -34,6 +34,29 @@
     "date_range": "Jul 10 - 12, 2026"
   },
   {
+    "id": "WellingtonAutumn2026",
+    "name": "Wellington Autumn 2026",
+    "venue": "Wellington Bridge Club",
+    "city": "Wellington",
+    "registration_open": "2026-01-22T04:00:00.000Z",
+    "registration_close": "2026-05-18T11:59:00.000Z",
+    "start_date": "2026-05-23",
+    "end_date": "2026-05-23",
+    "website": "https://www.worldcubeassociation.org/competitions/WellingtonAutumn2026",
+    "url": "https://www.worldcubeassociation.org/competitions/WellingtonAutumn2026",
+    "latitude_degrees": -41.269783,
+    "longitude_degrees": 174.780293,
+    "event_ids": [
+      "333",
+      "222",
+      "444",
+      "333bf",
+      "333oh",
+      "pyram"
+    ],
+    "date_range": "May 23, 2026"
+  },
+  {
     "id": "NZSouthIslandChamps2026",
     "name": "NZ South Island Championship 2026",
     "venue": "Shirley Boys High",
