@@ -144,7 +144,7 @@
       {
         "personId": "2013NELS01",
         "eventId": "333fm",
-        "best": 20,
+        "best": "20",
         "name": "Tom Nelson",
         "link": ""
       }
@@ -153,7 +153,7 @@
       {
         "personId": "2013NELS01",
         "eventId": "333fm",
-        "best": 22.33,
+        "best": "22.33",
         "name": "Tom Nelson",
         "link": ""
       }

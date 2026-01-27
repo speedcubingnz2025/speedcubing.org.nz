@@ -128,8 +128,8 @@ const displayEventResult = (value, event) => {
   if (event === '333fm') {
     // bad code to avoid annoying stuff
     if(value < 0) return value === -1 ? 'DNF' : 'DNS';
-    if(value < 99) return value;
-    return value / 100;
+    if(value < 99) return value + "";
+    return (value / 100) + "";
   }
   if (event === '333mbf') {
     return displayMulti(value);
