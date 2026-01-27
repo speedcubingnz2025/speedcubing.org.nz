@@ -2,7 +2,7 @@ name: Update Records
 
 on:
   schedule:
-    - cron: "0 9 * * 5" # Runs weekly at Friday 9:00AM UTC
+    - cron: "30 1 * * 3" 
   workflow_dispatch: # Allows manual triggering from GitHub UI
 
 permissions:
