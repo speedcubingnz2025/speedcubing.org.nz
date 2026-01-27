@@ -22,11 +22,11 @@
   "333": {
     "single": [
       {
-        "personId": "2019RAMO05",
+        "personId": "2020FENG02",
         "eventId": "333",
-        "best": "4.54",
-        "name": "Dwyane Ramos",
-        "link": "https://www.instagram.com/p/DE9cZJTPmH9/"
+        "best": "4.41",
+        "name": "Andrew Feng",
+        "link": ""
       }
     ],
     "average": [
@@ -213,7 +213,7 @@
       {
         "personId": "2019VUJC01",
         "eventId": "minx",
-        "best": "27.33",
+        "best": "26.60",
         "name": "Alexander Vujcich",
         "link": ""
       }
@@ -329,6 +329,6 @@
         "link": "https://www.youtube.com/watch?v=HO6Pvsy-ejs"
       }
     ],
-    "average": null
+    "average": []
   }
 }
