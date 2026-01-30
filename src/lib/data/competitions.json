@@ -57,6 +57,34 @@
     "date_range": "May 23, 2026"
   },
   {
+    "id": "AucklandNewcomerOpen2026",
+    "name": "Cubing East Auckland Newcomer Open 2026",
+    "venue": "Macleans College",
+    "city": "Auckland",
+    "registration_open": "2026-02-02T00:00:00.000Z",
+    "registration_close": "2026-04-15T00:00:00.000Z",
+    "start_date": "2026-04-18",
+    "end_date": "2026-04-19",
+    "website": "https://www.worldcubeassociation.org/competitions/AucklandNewcomerOpen2026",
+    "url": "https://www.worldcubeassociation.org/competitions/AucklandNewcomerOpen2026",
+    "latitude_degrees": -36.881663,
+    "longitude_degrees": 174.915266,
+    "event_ids": [
+      "333",
+      "222",
+      "444",
+      "555",
+      "666",
+      "777",
+      "333oh",
+      "clock",
+      "minx",
+      "pyram",
+      "skewb"
+    ],
+    "date_range": "Apr 18 - 19, 2026"
+  },
+  {
     "id": "NZSouthIslandChamps2026",
     "name": "NZ South Island Championship 2026",
     "venue": "Shirley Boys High",
