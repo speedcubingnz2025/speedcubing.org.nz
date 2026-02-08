@@ -118,6 +118,29 @@
     "date_range": "Apr 10 - 12, 2026"
   },
   {
+    "id": "RiccartonNewcomerRumble2026",
+    "name": "Riccarton Newcomer Rumble 2026",
+    "venue": "Rārākau: Riccarton Centre",
+    "city": "Christchurch",
+    "registration_open": "2026-02-11T00:00:00.000Z",
+    "registration_close": "2026-03-11T11:59:00.000Z",
+    "start_date": "2026-03-14",
+    "end_date": "2026-03-14",
+    "website": "https://www.worldcubeassociation.org/competitions/RiccartonNewcomerRumble2026",
+    "url": "https://www.worldcubeassociation.org/competitions/RiccartonNewcomerRumble2026",
+    "latitude_degrees": -43.530362,
+    "longitude_degrees": 172.60161,
+    "event_ids": [
+      "333",
+      "222",
+      "444",
+      "333oh",
+      "pyram",
+      "skewb"
+    ],
+    "date_range": "Mar 14, 2026"
+  },
+  {
     "id": "NZNorthIslandChampionship2026",
     "name": "NZ North Island Championship 2026",
     "venue": "Mount Sports Centre",
