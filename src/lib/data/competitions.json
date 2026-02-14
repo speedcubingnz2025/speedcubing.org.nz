@@ -57,6 +57,30 @@
     "date_range": "May 23, 2026"
   },
   {
+    "id": "WelcomeBackHamilton2026",
+    "name": "Welcome Back Hamilton 2026",
+    "venue": "The Hardy Centre",
+    "city": "Hamilton",
+    "registration_open": "2026-02-18T00:00:00.000Z",
+    "registration_close": "2026-04-08T00:00:00.000Z",
+    "start_date": "2026-05-09",
+    "end_date": "2026-05-10",
+    "website": "https://www.worldcubeassociation.org/competitions/WelcomeBackHamilton2026",
+    "url": "https://www.worldcubeassociation.org/competitions/WelcomeBackHamilton2026",
+    "latitude_degrees": -37.828655,
+    "longitude_degrees": 175.285245,
+    "event_ids": [
+      "333",
+      "222",
+      "444",
+      "333bf",
+      "333oh",
+      "clock",
+      "pyram"
+    ],
+    "date_range": "May 9 - 10, 2026"
+  },
+  {
     "id": "AucklandNewcomerOpen2026",
     "name": "Cubing East Auckland Newcomer Open 2026",
     "venue": "Macleans College",
@@ -198,6 +222,28 @@
     "date_range": "Feb 27 - Mar 1, 2026"
   },
   {
+    "id": "WellingtonMindGames2026",
+    "name": "Wellington Mind Games 2026",
+    "venue": "Karori Arts & Crafts Centre",
+    "city": "Wellington",
+    "registration_open": "2025-12-07T04:00:00.000Z",
+    "registration_close": "2026-01-26T10:59:00.000Z",
+    "start_date": "2026-01-31",
+    "end_date": "2026-01-31",
+    "website": "https://www.worldcubeassociation.org/competitions/WellingtonMindGames2026",
+    "url": "https://www.worldcubeassociation.org/competitions/WellingtonMindGames2026",
+    "latitude_degrees": -41.285301,
+    "longitude_degrees": 174.737963,
+    "event_ids": [
+      "333bf",
+      "333fm",
+      "444bf",
+      "555bf",
+      "333mbf"
+    ],
+    "date_range": "Jan 31, 2026"
+  },
+  {
     "id": "InvercargillSummer2026",
     "name": "Invercargill Summer 2026",
     "venue": "Invercargill City Library",
@@ -222,28 +268,6 @@
       "skewb"
     ],
     "date_range": "Jan 31 - Feb 1, 2026"
-  },
-  {
-    "id": "WellingtonMindGames2026",
-    "name": "Wellington Mind Games 2026",
-    "venue": "Karori Arts & Crafts Centre",
-    "city": "Wellington",
-    "registration_open": "2025-12-07T04:00:00.000Z",
-    "registration_close": "2026-01-26T10:59:00.000Z",
-    "start_date": "2026-01-31",
-    "end_date": "2026-01-31",
-    "website": "https://www.worldcubeassociation.org/competitions/WellingtonMindGames2026",
-    "url": "https://www.worldcubeassociation.org/competitions/WellingtonMindGames2026",
-    "latitude_degrees": -41.285301,
-    "longitude_degrees": 174.737963,
-    "event_ids": [
-      "333bf",
-      "333fm",
-      "444bf",
-      "555bf",
-      "333mbf"
-    ],
-    "date_range": "Jan 31, 2026"
   },
   {
     "id": "ANewYearinAuckland2026",
