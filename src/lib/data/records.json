@@ -91,10 +91,10 @@
     ],
     "average": [
       {
-        "personId": "2021EYLE01",
+        "personId": "2019RAMO05",
         "eventId": "666",
-        "best": "1:24.96",
-        "name": "Henry Eyles",
+        "best": "1:24.95",
+        "name": "Dwyane Ramos",
         "link": ""
       }
     ]
@@ -173,9 +173,9 @@
       {
         "personId": "2019RAMO05",
         "eventId": "333oh",
-        "best": "8.47",
+        "best": "8.36",
         "name": "Dwyane Ramos",
-        "link": "https://www.instagram.com/p/DIDmnDlzfjH/"
+        "link": ""
       }
     ]
   },
@@ -204,7 +204,7 @@
       {
         "personId": "2019VUJC01",
         "eventId": "minx",
-        "best": "24.05",
+        "best": "22.32",
         "name": "Alexander Vujcich",
         "link": ""
       }
@@ -324,9 +324,9 @@
       {
         "personId": "2015MACD03",
         "eventId": "333mbf",
-        "best": "50/53 59:03",
+        "best": "55/58 59:15",
         "name": "James Macdiarmid",
-        "link": "https://www.youtube.com/watch?v=HO6Pvsy-ejs"
+        "link": ""
       }
     ],
     "average": []
