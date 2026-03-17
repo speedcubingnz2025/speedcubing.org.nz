@@ -34,6 +34,32 @@
     "date_range": "Jul 10 - 12, 2026"
   },
   {
+    "id": "ChristchurchAutumn2026",
+    "name": "Christchurch Autumn 2026",
+    "venue": "WEA Christchurch",
+    "city": "Christchurch",
+    "registration_open": "2026-03-23T00:00:00.000Z",
+    "registration_close": "2026-05-17T00:00:00.000Z",
+    "start_date": "2026-05-23",
+    "end_date": "2026-05-24",
+    "website": "https://www.worldcubeassociation.org/competitions/ChristchurchAutumn2026",
+    "url": "https://www.worldcubeassociation.org/competitions/ChristchurchAutumn2026",
+    "latitude_degrees": -43.529548,
+    "longitude_degrees": 172.631635,
+    "event_ids": [
+      "333",
+      "222",
+      "444",
+      "555",
+      "666",
+      "777",
+      "333oh",
+      "minx",
+      "pyram"
+    ],
+    "date_range": "May 23 - 24, 2026"
+  },
+  {
     "id": "WellingtonAutumn2026",
     "name": "Wellington Autumn 2026",
     "venue": "Wellington Bridge Club",
