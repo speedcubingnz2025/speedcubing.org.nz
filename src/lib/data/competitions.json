@@ -34,6 +34,26 @@
     "date_range": "Jul 10 - 12, 2026"
   },
   {
+    "id": "MoreCubesKelburn2026",
+    "name": "More Cubes Kelburn 2026",
+    "venue": "Victoria University of Wellington, Kelburn Campus",
+    "city": "Wellington",
+    "registration_open": "2026-03-28T06:00:00.000Z",
+    "registration_close": "2026-06-15T11:59:00.000Z",
+    "start_date": "2026-06-21",
+    "end_date": "2026-06-21",
+    "website": "https://www.worldcubeassociation.org/competitions/MoreCubesKelburn2026",
+    "url": "https://www.worldcubeassociation.org/competitions/MoreCubesKelburn2026",
+    "latitude_degrees": -41.290468,
+    "longitude_degrees": 174.767629,
+    "event_ids": [
+      "333bf",
+      "444bf",
+      "333mbf"
+    ],
+    "date_range": "Jun 21, 2026"
+  },
+  {
     "id": "ChristchurchAutumn2026",
     "name": "Christchurch Autumn 2026",
     "venue": "WEA Christchurch",
