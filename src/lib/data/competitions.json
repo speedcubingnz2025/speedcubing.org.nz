@@ -255,38 +255,5 @@
       "skewb"
     ],
     "date_range": "Mar 14, 2026"
-  },
-  {
-    "id": "NZNorthIslandChampionship2026",
-    "name": "NZ North Island Championship 2026",
-    "venue": "Mount Sports Centre",
-    "city": "Tauranga",
-    "registration_open": "2025-10-02T00:00:00.000Z",
-    "registration_close": "2026-02-24T00:00:00.000Z",
-    "start_date": "2026-02-27",
-    "end_date": "2026-03-01",
-    "website": "https://www.worldcubeassociation.org/competitions/NZNorthIslandChampionship2026",
-    "url": "https://www.worldcubeassociation.org/competitions/NZNorthIslandChampionship2026",
-    "latitude_degrees": -37.653468,
-    "longitude_degrees": 176.196431,
-    "event_ids": [
-      "333",
-      "222",
-      "444",
-      "555",
-      "666",
-      "777",
-      "333bf",
-      "333oh",
-      "clock",
-      "minx",
-      "pyram",
-      "skewb",
-      "sq1",
-      "444bf",
-      "555bf",
-      "333mbf"
-    ],
-    "date_range": "Feb 27 - Mar 1, 2026"
   }
 ]
