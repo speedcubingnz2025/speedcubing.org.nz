@@ -1,5 +1,38 @@
 [
   {
+    "id": "OC2026",
+    "name": "GAN WCA Oceanic Championship 2026",
+    "venue": "Auckland Netball Centre",
+    "city": "Auckland",
+    "registration_open": "2026-04-11T04:00:00.000Z",
+    "registration_close": "2026-11-30T10:59:00.000Z",
+    "start_date": "2026-12-10",
+    "end_date": "2026-12-13",
+    "website": "https://www.worldcubeassociation.org/competitions/OC2026",
+    "url": "https://www.worldcubeassociation.org/competitions/OC2026",
+    "latitude_degrees": -36.884675,
+    "longitude_degrees": 174.844483,
+    "event_ids": [
+      "333",
+      "222",
+      "444",
+      "555",
+      "666",
+      "777",
+      "333bf",
+      "333oh",
+      "clock",
+      "minx",
+      "pyram",
+      "skewb",
+      "sq1",
+      "444bf",
+      "555bf",
+      "333mbf"
+    ],
+    "date_range": "Dec 10 - 13, 2026"
+  },
+  {
     "id": "NewZealandNationals2026",
     "name": "New Zealand Nationals 2026",
     "venue": "St Patrick’s College",
@@ -76,29 +109,6 @@
     "date_range": "Jun 20, 2026"
   },
   {
-    "id": "WellingtonAutumn2026",
-    "name": "Wellington Autumn 2026",
-    "venue": "Wellington Bridge Club",
-    "city": "Wellington",
-    "registration_open": "2026-01-22T04:00:00.000Z",
-    "registration_close": "2026-05-18T11:59:00.000Z",
-    "start_date": "2026-05-23",
-    "end_date": "2026-05-23",
-    "website": "https://www.worldcubeassociation.org/competitions/WellingtonAutumn2026",
-    "url": "https://www.worldcubeassociation.org/competitions/WellingtonAutumn2026",
-    "latitude_degrees": -41.269783,
-    "longitude_degrees": 174.780293,
-    "event_ids": [
-      "333",
-      "222",
-      "444",
-      "333bf",
-      "333oh",
-      "pyram"
-    ],
-    "date_range": "May 23, 2026"
-  },
-  {
     "id": "ChristchurchAutumn2026",
     "name": "Christchurch Autumn 2026",
     "venue": "WEA Christchurch",
@@ -123,6 +133,29 @@
       "pyram"
     ],
     "date_range": "May 23 - 24, 2026"
+  },
+  {
+    "id": "WellingtonAutumn2026",
+    "name": "Wellington Autumn 2026",
+    "venue": "Wellington Bridge Club",
+    "city": "Wellington",
+    "registration_open": "2026-01-22T04:00:00.000Z",
+    "registration_close": "2026-05-18T11:59:00.000Z",
+    "start_date": "2026-05-23",
+    "end_date": "2026-05-23",
+    "website": "https://www.worldcubeassociation.org/competitions/WellingtonAutumn2026",
+    "url": "https://www.worldcubeassociation.org/competitions/WellingtonAutumn2026",
+    "latitude_degrees": -41.269783,
+    "longitude_degrees": 174.780293,
+    "event_ids": [
+      "333",
+      "222",
+      "444",
+      "333bf",
+      "333oh",
+      "pyram"
+    ],
+    "date_range": "May 23, 2026"
   },
   {
     "id": "WelcomeBackHamilton2026",
