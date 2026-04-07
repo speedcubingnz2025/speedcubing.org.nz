@@ -33,6 +33,30 @@
     "date_range": "Dec 10 - 13, 2026"
   },
   {
+    "id": "NZCubingintheCapital2026",
+    "name": "NZ Cubing in the Capital 2026",
+    "venue": "Johnsonville Club",
+    "city": "Wellington",
+    "registration_open": "2026-04-12T06:00:00.000Z",
+    "registration_close": "2026-09-07T11:59:00.000Z",
+    "start_date": "2026-09-13",
+    "end_date": "2026-09-13",
+    "website": "https://www.worldcubeassociation.org/competitions/NZCubingintheCapital2026",
+    "url": "https://www.worldcubeassociation.org/competitions/NZCubingintheCapital2026",
+    "latitude_degrees": -41.223256,
+    "longitude_degrees": 174.80856,
+    "event_ids": [
+      "333",
+      "222",
+      "444",
+      "777",
+      "333bf",
+      "clock",
+      "pyram"
+    ],
+    "date_range": "Sep 13, 2026"
+  },
+  {
     "id": "NewZealandNationals2026",
     "name": "New Zealand Nationals 2026",
     "venue": "St Patrick’s College",
