@@ -1,6 +1,118 @@
 [
   {
     "eventId": "222",
+    "year": 2026,
+    "champion": "Connor Johnson",
+    "result": "1.44",
+    "detail": "(1.04), 1.25, 1.75, (2.21), 1.31"
+  },
+  {
+    "eventId": "333",
+    "year": 2026,
+    "champion": "Dwyane Ramos",
+    "result": "H2H",
+    "detail": "-"
+  },
+  {
+    "eventId": "444",
+    "year": 2026,
+    "champion": "Dwyane Ramos",
+    "result": "29.56",
+    "detail": "27.21, 34.11, 27.36, (36.14), (22.77)"
+  },
+  {
+    "eventId": "555",
+    "year": 2026,
+    "champion": "Dwyane Ramos",
+    "result": "47.33",
+    "detail": "(48.23), 47.79, (42.89), 47.92, 46.28"
+  },
+  {
+    "eventId": "666",
+    "year": 2026,
+    "champion": "Dwyane Ramos",
+    "result": "1:27.64",
+    "detail": "1:22.78, 1:33.00, 1:27.14"
+  },
+  {
+    "eventId": "777",
+    "year": 2026,
+    "champion": "Dwyane Ramos",
+    "result": "2:12.82",
+    "detail": "2:22.50, 2:11.87, 2:04.08"
+  },
+  {
+    "eventId": "333bf",
+    "year": 2026,
+    "champion": "Connor Johnson",
+    "result": "28.12",
+    "detail": "(28.12), 42.88, 33.46, (51.14), 29.94"
+  },
+  {
+    "eventId": "333oh",
+    "year": 2026,
+    "champion": "Jasper Murray",
+    "result": "9.28",
+    "detail": "9.03, 9.28, (10.91), (8.98), 9.53"
+  },
+  {
+    "eventId": "clock",
+    "year": 2026,
+    "champion": "Connor Johnson",
+    "result": "4.64",
+    "detail": "4.89, 4.36, (5.10), 4.67, (3.58)"
+  },
+  {
+    "eventId": "minx",
+    "year": 2026,
+    "champion": "Henry Eyles",
+    "result": "41.23",
+    "detail": "39.21, 44.66, (33.56), (51.80), 39.82"
+  },
+  {
+    "eventId": "pyram",
+    "year": 2026,
+    "champion": "Jasper Murray",
+    "result": "1.62",
+    "detail": "1.62, 1.68, (1.47), 1.56, (1.71)"
+  },
+  {
+    "eventId": "skewb",
+    "year": 2026,
+    "champion": "Dwyane Ramos",
+    "result": "2.76",
+    "detail": "3.95, 1.87, (1.78), (4.01), 2.47"
+  },
+  {
+    "eventId": "sq1",
+    "year": 2026,
+    "champion": "Adrien Auvray Matyn",
+    "result": "7.77",
+    "detail": "7.71, 7.26, (10.68), (6.41), 8.35"
+  },
+  {
+    "eventId": "444bf",
+    "year": 2026,
+    "champion": "Connor Johnson",
+    "result": "4:42.65",
+    "detail": "4:42.65, 5:01.32, 5:18.12"
+  },
+  {
+    "eventId": "555bf",
+    "year": 2026,
+    "champion": "Connor Johnson",
+    "result": "12:57.00",
+    "detail": "DNF, DNF, 12:57.00"
+  },
+  {
+    "eventId": "333mbf",
+    "year": 2026,
+    "champion": "Connor Johnson",
+    "result": "14/17 52:48",
+    "detail": "15/20 55:43, 14/17 52:48"
+  },
+  {
+    "eventId": "222",
     "year": 2025,
     "champion": "Connor Johnson",
     "result": "1.56",
