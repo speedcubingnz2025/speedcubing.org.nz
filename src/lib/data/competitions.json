@@ -33,6 +33,32 @@
     "date_range": "Dec 10 - 13, 2026"
   },
   {
+    "id": "SolveWellinWellington2026",
+    "name": "Solve Well in Wellington 2026",
+    "venue": "Khandallah Town Hall",
+    "city": "Wellington",
+    "registration_open": "2026-04-21T06:00:00.000Z",
+    "registration_close": "2026-10-05T10:59:00.000Z",
+    "start_date": "2026-10-10",
+    "end_date": "2026-10-10",
+    "website": "https://www.worldcubeassociation.org/competitions/SolveWellinWellington2026",
+    "url": "https://www.worldcubeassociation.org/competitions/SolveWellinWellington2026",
+    "latitude_degrees": -41.246729,
+    "longitude_degrees": 174.791396,
+    "event_ids": [
+      "333",
+      "222",
+      "555",
+      "333bf",
+      "333oh",
+      "minx",
+      "pyram",
+      "skewb",
+      "sq1"
+    ],
+    "date_range": "Oct 10, 2026"
+  },
+  {
     "id": "NZCubingintheCapital2026",
     "name": "NZ Cubing in the Capital 2026",
     "venue": "Johnsonville Club",
@@ -133,6 +159,29 @@
     "date_range": "Jun 20, 2026"
   },
   {
+    "id": "WellingtonAutumn2026",
+    "name": "Wellington Autumn 2026",
+    "venue": "Wellington Bridge Club",
+    "city": "Wellington",
+    "registration_open": "2026-01-22T04:00:00.000Z",
+    "registration_close": "2026-05-18T11:59:00.000Z",
+    "start_date": "2026-05-23",
+    "end_date": "2026-05-23",
+    "website": "https://www.worldcubeassociation.org/competitions/WellingtonAutumn2026",
+    "url": "https://www.worldcubeassociation.org/competitions/WellingtonAutumn2026",
+    "latitude_degrees": -41.269783,
+    "longitude_degrees": 174.780293,
+    "event_ids": [
+      "333",
+      "222",
+      "444",
+      "333bf",
+      "333oh",
+      "pyram"
+    ],
+    "date_range": "May 23, 2026"
+  },
+  {
     "id": "ChristchurchAutumn2026",
     "name": "Christchurch Autumn 2026",
     "venue": "WEA Christchurch",
@@ -157,29 +206,6 @@
       "pyram"
     ],
     "date_range": "May 23 - 24, 2026"
-  },
-  {
-    "id": "WellingtonAutumn2026",
-    "name": "Wellington Autumn 2026",
-    "venue": "Wellington Bridge Club",
-    "city": "Wellington",
-    "registration_open": "2026-01-22T04:00:00.000Z",
-    "registration_close": "2026-05-18T11:59:00.000Z",
-    "start_date": "2026-05-23",
-    "end_date": "2026-05-23",
-    "website": "https://www.worldcubeassociation.org/competitions/WellingtonAutumn2026",
-    "url": "https://www.worldcubeassociation.org/competitions/WellingtonAutumn2026",
-    "latitude_degrees": -41.269783,
-    "longitude_degrees": 174.780293,
-    "event_ids": [
-      "333",
-      "222",
-      "444",
-      "333bf",
-      "333oh",
-      "pyram"
-    ],
-    "date_range": "May 23, 2026"
   },
   {
     "id": "WelcomeBackHamilton2026",
