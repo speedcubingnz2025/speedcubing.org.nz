@@ -1,6 +1,118 @@
 [
   {
     "eventId": "222",
+    "year": 2026,
+    "champion": "Alexander Vujcich",
+    "result": "1.70",
+    "detail": "(1.79), (1.45), 1.75, 1.68, 1.67"
+  },
+  {
+    "eventId": "333",
+    "year": 2026,
+    "champion": "Richard Yiheng Tao",
+    "result": "H2H",
+    "detail": "-"
+  },
+  {
+    "eventId": "444",
+    "year": 2026,
+    "champion": "Alexander Vujcich",
+    "result": "24.31",
+    "detail": "(22.23), 23.04, 25.46, (25.91), 24.44"
+  },
+  {
+    "eventId": "555",
+    "year": 2026,
+    "champion": "Alexander Vujcich",
+    "result": "45.95",
+    "detail": "48.32, 43.92, (55.69), (38.52), 45.61"
+  },
+  {
+    "eventId": "666",
+    "year": 2026,
+    "champion": "Levi Eyou",
+    "result": "1:44.78",
+    "detail": "1:52.59, 1:42.53, 1:39.22"
+  },
+  {
+    "eventId": "777",
+    "year": 2026,
+    "champion": "Richard Yiheng Tao",
+    "result": "2:24.53",
+    "detail": "2:27.36, 2:20.64, 2:25.60"
+  },
+  {
+    "eventId": "333bf",
+    "year": 2026,
+    "champion": "Jack McDougall",
+    "result": "19.11",
+    "detail": "22.51, 26.37, (26.39), 21.55, (19.11)"
+  },
+  {
+    "eventId": "333oh",
+    "year": 2026,
+    "champion": "Jesse Brooke",
+    "result": "13.17",
+    "detail": "(10.83), (14.15), 13.69, 13.34, 12.47"
+  },
+  {
+    "eventId": "clock",
+    "year": 2026,
+    "champion": "Brandon Harris",
+    "result": "4.59",
+    "detail": "(4.81), (3.70), 4.61, 4.46, 4.69"
+  },
+  {
+    "eventId": "minx",
+    "year": 2026,
+    "champion": "Alexander Vujcich",
+    "result": "28.21",
+    "detail": "(32.00), 27.90, 30.42, 26.30, (22.32)"
+  },
+  {
+    "eventId": "pyram",
+    "year": 2026,
+    "champion": "Elyas Eyou",
+    "result": "2.30",
+    "detail": "(1.84), 2.89, (DNF), 2.06, 1.95"
+  },
+  {
+    "eventId": "skewb",
+    "year": 2026,
+    "champion": "Jack McDougall",
+    "result": "2.98",
+    "detail": "(DNF), 2.84, 2.79, (2.54), 3.31"
+  },
+  {
+    "eventId": "sq1",
+    "year": 2026,
+    "champion": "Elyas Eyou",
+    "result": "8.91",
+    "detail": "9.07, 7.81, (7.70), (10.69), 9.86"
+  },
+  {
+    "eventId": "444bf",
+    "year": 2026,
+    "champion": "Jack McDougall",
+    "result": "2:12.19",
+    "detail": "DNF, DNF, 2:12.19"
+  },
+  {
+    "eventId": "555bf",
+    "year": 2026,
+    "champion": "Jack McDougall",
+    "result": "4:50.41",
+    "detail": "5:14.19, 4:50.41, 9:39.93"
+  },
+  {
+    "eventId": "333mbf",
+    "year": 2026,
+    "champion": "James Macdiarmid",
+    "result": "55/58 59:15",
+    "detail": "55/58 59:15"
+  },
+  {
+    "eventId": "222",
     "year": 2025,
     "champion": "Jack Maddigan",
     "result": "1.67",
